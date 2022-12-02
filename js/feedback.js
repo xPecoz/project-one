@@ -90,15 +90,26 @@ btnPort.addEventListener("click", () => {
 
 // Send Message
 function SendMail() {
+  let msgSend = document.querySelector(".modal");
+  let submit = document.querySelector(".title-3");
+  let closeBtn = document.querySelector(".close-btn");
+
   let params = {
     from_name: document.getElementById("fullName").value,
     email_id: document.getElementById("email_id").value,
     message: document.getElementById("message").value,
     number: document.getElementById("phone_id").value,
   };
-  emailjs
-    .send("service_vpguixj", "template_j210nld", params)
-    .then(function (res) {
-      alert("Success!" + res.status);
-    });
+
+  if (params.from_name && params.email_id && params.message) {
+    emailjs.send("service_vpguixj", "template_j210nld", params);
+    msgSend.classList.toggle("active-5");
+  }
+
+  closeBtn.addEventListener("click", close);
+  submit.addEventListener("click", close);
+
+  function close() {
+    msgSend.classList.remove("active-5");
+  }
 }
