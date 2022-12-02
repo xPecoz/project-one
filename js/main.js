@@ -33,6 +33,20 @@
 //   arbic.innerHTML = user[input.value].subject.arbic;
 //   math.innerHTML = user[input.value].subject.math;
 // };
+// Scrool To Top
+let btnScrol = document.querySelector(".up");
+
+btnScrol.onclick = function () {
+  window.scrollTo({
+    top: 0,
+  });
+};
+
+window.addEventListener("scroll", () => {
+  this.scrollY >= 600
+    ? btnScrol.classList.add("show")
+    : btnScrol.classList.remove("show");
+});
 
 // Open And Close Sidebar
 let sidebar = document.querySelector(".sidebar");
