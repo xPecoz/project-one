@@ -11,18 +11,19 @@
   --shadow-color: #ddd;
   --purple-alt-color: #f1f5f9;
   --title-color: #00eeff;
+  --exam-color: var(--icon-color);
 }
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
 }
 html {
   scroll-behavior: smooth;
   line-height: 1.15;
 }
 body {
-  font-family: "Cairo", sans-serif;
   margin: 0;
   background-color: var(--body-color);
 }
@@ -36,6 +37,7 @@ body.dark-theme {
   --shadow-color: rgb(0 0 0 / 50%);
   --purple-alt-color: #3f51b5;
   --title-color: white;
+  --exam-color: rgba(255, 255, 255, 0.07);
 }
 a {
   text-decoration: none;
@@ -716,8 +718,7 @@ li {
   }
 }
 .main-page .feedback input,
-.main-page .feedback textarea
-/* ,.main-page .feedback button */ {
+.main-page .feedback textarea {
   border: 0;
   outline: none;
   margin: 10px 0;
@@ -921,3 +922,149 @@ li {
   margin-bottom: 25px;
 }
 /* End Papers */
+/* Start Exam */
+.h1-exam {
+  animation: control-width-4 5s 1s steps(15) infinite both,
+    blink 0.5s 1s infinite !important;
+}
+@keyframes control-width-4 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 206px;
+  }
+  100% {
+    width: 0;
+  }
+}
+.exam-form {
+  background-color: var(--box-color);
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.exam-form input {
+  display: block;
+  height: 50px;
+  background-color: var(--exam-color);
+  border-radius: 6px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  width: 320px;
+  color: var(--black-color);
+}
+.exam-form input::placeholder {
+  color: var(--black-color);
+}
+.exam-form input:focus {
+  outline: none;
+}
+.exam-form .select {
+  padding: 5px 15px;
+  border-radius: 6px 6px 0 0;
+  background-color: var(--exam-color);
+  color: var(--black-color);
+  font-size: 18px;
+  font-weight: bold;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+.exam-form .select .optain {
+  font-size: 16px;
+  position: absolute;
+  top: 31px;
+  background-color: var(--purple-color);
+  width: 100%;
+  left: 0;
+  border-radius: 0 0 6px 6px;
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  transition: max-height 0.3s;
+  padding: 0;
+  overflow: hidden;
+}
+.exam-form .select .optain p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 16px 0;
+}
+.exam-form .select .optain p:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+.exam-form button {
+  padding: 5px 0;
+  border-radius: 6px;
+  background-color: var(--purple-color);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  margin-top: 30px;
+  font-family: "Cairo", sans-serif;
+  width: 170px;
+}
+.h-full {
+  max-height: fit-content !important;
+  padding: 5px;
+}
+.exam-2 {
+  background-color: var(--box-color);
+  padding: 15px;
+  margin-top: 20px;
+  color: var(--black-color);
+}
+.exam-2 > div {
+  display: flex;
+  border-radius: 6px;
+  height: 50px;
+  overflow: hidden;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.exam-2 > div .deg,
+.exam-2 > div .name {
+  background-color: var(--purple-alt-color);
+  padding: 7px;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.exam-2 > div .deg {
+  width: 70%;
+  border-right: 2px solid var(--black-color);
+}
+.exam-2 > div .name {
+  width: 30%;
+}
+@media (max-width: 616px) {
+  .exam-2 > div .deg {
+    width: 50%;
+    font-size: 17px;
+  }
+  .exam-2 > div .name {
+    width: 50%;
+    font-size: 17px;
+  }
+  .exam-form input {
+    width: -webkit-fill-available;
+  }
+}
+/* End Exam */

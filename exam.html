@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مدرسة عبدالله النديم | الأوراق</title>
+    <title>مدرسة عبدالله النديم | النتيجة</title>
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -22,18 +22,6 @@
     />
   </head>
   <body class="dark-theme">
-    <!-- <div class="form">
-      <input type="number" placeholder="اكتب رقم الجلوس" />
-      <button>الدرجات</button>
-      <div class="box">
-        <div class="name"></div>
-        <div class="arabic"></div>
-        <div class="math"></div>
-        <div class="sience"></div>
-        <div class="social"></div>
-        <div class="E"></div>
-      </div>
-    </div> -->
     <nav class="sidebar close">
       <header>
         <div class="image-text">
@@ -56,13 +44,13 @@
               </a>
             </li>
             <li class="nav-link">
-              <a class="" href="exam.html">
+              <a class="active" href="exam.html">
                 <i class="uil uil-arrow-growth icon"></i>
                 <span class="text nav-text">نتيجية الإمتحانات</span>
               </a>
             </li>
             <li class="nav-link">
-              <a class="active" href="papers.html">
+              <a href="papers.html">
                 <i class="uil uil-file-info-alt icon"></i>
                 <span class="text nav-text">التقديم في المدرسة</span>
               </a>
@@ -87,17 +75,49 @@
       <!-- Start Main Page -->
       <div class="main-page">
         <div class="container">
-          <h1 class="h1-papers">أوراق التقديم</h1>
-          <p class="dec"></p>
-          <h2>الأوراق</h2>
-          <div class="box-papers">
-            <p>صورة من بطاقة الرقم القومي لولي الأمر</p>
-            <p>شهادة ميلاد الطفل (كمبيوتر)</p>
-            <p>ملف كامل الدمغات</p>
-            <p>عشرة صور شخصية حديثة للطفل، مقاس أربعة في ستة وبخلفية بيضاء</p>
-            <p>ما يثبت محل السكن، مثل إيصال غاز أو كهرباء أو المياه</p>
-            <p>البطاقة الصحية</p>
-            <p>دمغات التأمين الصحي ب ثمانية وثمانون جنيه</p>
+          <h1 class="h1-exam">نتيجية الإمتحانات</h1>
+          <p class="dec">هنا بإمكانك الحصول علي النتيجة من دون أي جهد</p>
+          <div class="exam-form">
+            <input type="number" placeholder="اكتب رقم الجلوس" />
+            <div class="select">
+              <div class="choose">اختر الصف</div>
+              <div class="optain">
+                <p>الصف الرابع</p>
+                <p>الصف الخامس</p>
+                <p>السف السادس</p>
+              </div>
+            </div>
+            <button>اظهار النتيجية</button>
+          </div>
+          <div class="exam-2">
+            <div class="user-name">
+              <p class="deg"></p>
+              <p class="name">الإسم</p>
+            </div>
+            <div class="arabic">
+              <p class="deg">الدرجة</p>
+              <p class="name">العربي</p>
+            </div>
+            <div class="studies">
+              <p class="deg">الدرجة</p>
+              <p class="name">الدراسات</p>
+            </div>
+            <div class="math">
+              <p class="deg">الدرجة</p>
+              <p class="name">الرياضيات</p>
+            </div>
+            <div class="english">
+              <p class="deg">الدرجة</p>
+              <p class="name">الإنجليزي</p>
+            </div>
+            <div class="science">
+              <p class="deg">الدرجة</p>
+              <p class="name">العلوم</p>
+            </div>
+            <div class="religion">
+              <p class="deg">الدرجة</p>
+              <p class="name">التربية الدينية</p>
+            </div>
           </div>
         </div>
       </div>
@@ -108,6 +128,6 @@
       src="https://kit.fontawesome.com/102e410967.js"
       crossorigin="anonymous"
     ></script>
-    <script src="js/papes.js"></script>
+    <script src="js/exam.js"></script>
   </body>
 </html>
