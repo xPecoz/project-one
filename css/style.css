@@ -999,6 +999,7 @@ li {
   justify-content: center;
   margin: 0;
   padding: 16px 0;
+  color: white;
 }
 .exam-form .select .optain p:not(:last-child) {
   border-bottom: 1px solid white;
@@ -1026,6 +1027,7 @@ li {
   padding: 15px;
   margin-top: 20px;
   color: var(--black-color);
+  border-radius: 6px;
 }
 .exam-2 > div {
   display: flex;
@@ -1056,15 +1058,29 @@ li {
 }
 @media (max-width: 616px) {
   .exam-2 > div .deg {
-    width: 50%;
+    width: calc(100% - 34%);
     font-size: 17px;
   }
   .exam-2 > div .name {
-    width: 50%;
-    font-size: 17px;
+    width: 34%;
+    font-size: 14px;
+    justify-content: center;
   }
   .exam-form input {
     width: -webkit-fill-available;
+  }
+  .user-name .deg {
+    font-size: 12px !important;
+    line-height: 2 !important;
+    text-align: center;
+    justify-content: center;
+  }
+  .religion {
+    text-align: center;
+    line-height: 1.7;
+  }
+  .exam-2 {
+    padding: 12px;
   }
 }
 /* End Exam */

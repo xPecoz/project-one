@@ -64,6 +64,7 @@ let btnSelect = document.querySelector(".choose");
 let optionDiv = document.querySelector(".optain");
 let option = document.querySelectorAll(".optain p");
 let btnExam = document.querySelector(".exam-form button");
+let inputNumber = document.querySelector(".exam-form > input");
 let userName = document.querySelector(".user-name .deg");
 let arabic = document.querySelector(".arabic .deg");
 let studies = document.querySelector(".studies .deg");
@@ -352,6 +353,12 @@ let userFour = {
   },
 };
 
+inputNumber.addEventListener("keydown", (event) => {
+  if (event.code === "Enter") {
+    showExam();
+  }
+});
+
 btnSelect.onclick = function () {
   optionDiv.classList.toggle("h-full");
 };
@@ -359,10 +366,13 @@ btnSelect.onclick = function () {
 option.forEach((ele) => {
   ele.addEventListener("click", function () {
     text = ele.textContent;
+    optionDiv.classList.remove("h-full");
   });
 });
 
-btnExam.addEventListener("click", function () {
+btnExam.addEventListener("click", showExam);
+
+function showExam() {
   if (text == "الصف الرابع") {
     if (userFour[number.value]) {
       arabic.innerHTML = userFour[number.value].subject.Arabic;
@@ -380,14 +390,4 @@ btnExam.addEventListener("click", function () {
   } else {
     alert("اختر الصف");
   }
-});
-
-String.prototype.camelCase = function () {
-  return this.split(" ")
-    .map((e) => {
-      return e[0].toUpperCase() + e.slice(1);
-    })
-    .join(" ");
-};
-
-console.log("test case".camelCase());
+}
