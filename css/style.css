@@ -1072,8 +1072,6 @@ li {
   .user-name .deg {
     font-size: 12px !important;
     line-height: 2 !important;
-    text-align: center;
-    justify-content: center;
   }
   .religion {
     text-align: center;
@@ -1081,6 +1079,11 @@ li {
   }
   .exam-2 {
     padding: 12px;
+  }
+  .exam-2 > div .deg,
+  .exam-2 > div .name {
+    justify-content: center;
+    text-align: center;
   }
 }
 /* End Exam */

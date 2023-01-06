@@ -64,7 +64,6 @@ let btnSelect = document.querySelector(".choose");
 let optionDiv = document.querySelector(".optain");
 let option = document.querySelectorAll(".optain p");
 let btnExam = document.querySelector(".exam-form button");
-let inputNumber = document.querySelector(".exam-form > input");
 let userName = document.querySelector(".user-name .deg");
 let arabic = document.querySelector(".arabic .deg");
 let studies = document.querySelector(".studies .deg");
@@ -351,9 +350,493 @@ let userFour = {
       Science: "98%",
     },
   },
+  426: {
+    name: "محمد نادر محي محمد نافع",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  427: {
+    name: "محمد ولاء محمد زكي عبدالعاطي",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  428: {
+    name: "محمود مكرم ابو خليل محمد ",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  429: {
+    name: "منصور محمد ابراهيم محمد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  430: {
+    name: "هادي اسعد سعد ابراهيم فوده",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  431: {
+    name: "يوسف حسين ابوالسعود صابر",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  432: {
+    name: "يوسف عبدالقادر عزت السيد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  433: {
+    name: "يوسف محمد ابوالسادات منصور",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  434: {
+    name: "يوسف محمد عبدالعليم يوسف",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  435: {
+    name: "يوسف محمود عبد الحميد مصطفي",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  436: {
+    name: "اسماء علي عمر محمد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  437: {
+    name: "اسينات وائل عزيز المحمدي",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  438: {
+    name: "الاء حسن جابر عرفات الشربيني",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  439: {
+    name: "براء العربي جمعه محمد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  440: {
+    name: "بسمله علاء عبدالله احمد على",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  441: {
+    name: "بسمله ممتاز الشحات محمد احمد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  442: {
+    name: "جنا نبيل شوقي الورداني الحداد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  443: {
+    name: "جنه رجب السعيد احمد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  444: {
+    name: "جنى عمرو عابدين عبدالستار احمد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  445: {
+    name: "جني نادر نبيل حلمي",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  446: {
+    name: "جومانه الشربيني محمد خطاب",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  447: {
+    name: "حبيبه الزكي محمد الغريب محمد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  448: {
+    name: "حبيبه محمود احمد صبحي جمعه واصل",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  449: {
+    name: "حنين ابراهيم السيد سمبو",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  450: {
+    name: "حنين زينهم احمد بدير ",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  451: {
+    name: "حنين محمد بهجت عبدالوهاب صيام",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  451: {
+    name: "حنين محمد بهجت عبدالوهاب صيام",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  452: {
+    name: "رودينا السعيد رسمي رمضان وهدان",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  453: {
+    name: "رؤى عادل امبابي امبابي الغطاس",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  454: {
+    name: "ريتاج سعد الشربيني ابراهيم الشربيني",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  455: {
+    name: "ريتاج محمد الرفاعي السيد الرفاعي ",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  456: {
+    name: "ريماس طارق شورى موسى",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  457: {
+    name: "ساره سامح سعد حسين محمد الصرفي",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  458: {
+    name: "ساره محمود عيد عبد العزيز",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  459: {
+    name: "ساميه محمد السيد يوسف عبدالعزيز",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  460: {
+    name: "سجي ضياء الدين ابراهيم المتولي",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  461: {
+    name: "سما ايهاب هاشم حسن بيومى",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  462: {
+    name: "سما محمد محمد الظريف على حسين",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  463: {
+    name: "شمس محمد عبد القادر مصطفي",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  464: {
+    name: "شهد محمد المتولي المتولي زياده",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  465: {
+    name: "عائشه عمرو عبداللطيف السيد",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  466: {
+    name: "لوجي وائل الزكي منصور",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
+  467: {
+    name: "ليان ابراهيم عطاالله عبدالخالق",
+    subject: {
+      Arabic: "90%",
+      Studies: "100%",
+      Math: "95%",
+      English: "99%",
+      Religion: "97%",
+      Science: "98%",
+    },
+  },
 };
 
-inputNumber.addEventListener("keydown", (event) => {
+if (localStorage.getItem("four")) {
+  number.value = localStorage.getItem("four");
+  text = "الصف الرابع";
+  arabic.innerHTML = userFour[localStorage.getItem("four")].subject.Arabic;
+  studies.innerHTML = userFour[localStorage.getItem("four")].subject.Studies;
+  math.innerHTML = userFour[localStorage.getItem("four")].subject.Math;
+  english.innerHTML = userFour[localStorage.getItem("four")].subject.English;
+  science.innerHTML = userFour[localStorage.getItem("four")].subject.Science;
+  religion.innerHTML = userFour[localStorage.getItem("four")].subject.Religion;
+  userName.innerHTML = userFour[localStorage.getItem("four")].name;
+}
+number.addEventListener("keydown", (event) => {
   if (event.code === "Enter") {
     showExam();
   }
@@ -375,6 +858,7 @@ btnExam.addEventListener("click", showExam);
 function showExam() {
   if (text == "الصف الرابع") {
     if (userFour[number.value]) {
+      localStorage.setItem("four", number.value);
       arabic.innerHTML = userFour[number.value].subject.Arabic;
       studies.innerHTML = userFour[number.value].subject.Studies;
       math.innerHTML = userFour[number.value].subject.Math;
@@ -382,6 +866,8 @@ function showExam() {
       science.innerHTML = userFour[number.value].subject.Science;
       religion.innerHTML = userFour[number.value].subject.Religion;
       userName.innerHTML = userFour[number.value].name;
+    } else if (number.value == "") {
+      alert("أدخل رقم جلوس");
     } else {
       alert("رقم الجلوس غير صحيح");
     }
