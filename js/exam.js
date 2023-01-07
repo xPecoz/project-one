@@ -2177,8 +2177,7 @@ function showExam() {
         parseInt(studies.innerHTML) +
         parseInt(math.innerHTML) +
         parseInt(english.innerHTML) +
-        parseInt(science.innerHTML) +
-        parseInt(religion.innerHTML)
+        parseInt(science.innerHTML)
       }`;
     } else if (number.value == "") {
       alert("ادخل الكود");
