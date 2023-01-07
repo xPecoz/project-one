@@ -198,7 +198,11 @@ li {
   font-size: 18px;
   cursor: pointer;
   color: var(--black-color);
-  margin-right: 15px;
+  margin-right: 5px;
+}
+.head .text {
+  font-weight: bold;
+  line-height: 1.5;
 }
 @media (max-width: 419px) {
   .head .text {
