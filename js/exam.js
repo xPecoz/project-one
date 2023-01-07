@@ -77,6 +77,9 @@ let number = document.querySelector(".exam-form input");
 let examBox = document.querySelector(".exam-2");
 let computerBox = document.querySelector(".computer");
 let skillsBox = document.querySelector(".skills");
+let btnShowDeg = document.querySelector(".change button");
+let numberDeg = document.querySelector(".change div");
+let inputDeg = document.querySelector(".change input");
 let text = "";
 
 let userFour = {
@@ -2093,6 +2096,11 @@ let userSix = {
 //   userName.innerHTML = userFour[localStorage.getItem("six")].name;
 // }
 
+btnShowDeg.addEventListener("click", () => {
+  if (inputDeg.value) {
+    numberDeg.textContent = `${(parseInt(inputDeg.value) / 100) * 100}`;
+  }
+});
 number.addEventListener("keydown", (event) => {
   if (event.code === "Enter") {
     showExam();

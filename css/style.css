@@ -325,6 +325,83 @@ li {
 .menu-bar .mode i {
   position: absolute;
 }
+.change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--box-color);
+  margin-top: 20px;
+  border-radius: 6px;
+  gap: 15px;
+  padding: 7px;
+}
+.change p {
+  color: var(--black-color);
+  font-size: 23px;
+  margin: 18px;
+  font-weight: bold;
+}
+@media (max-width: 618px) {
+  .change p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 485px) {
+  .change p {
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+.change input {
+  display: block;
+  height: 50px;
+  background-color: var(--exam-color);
+  border-radius: 6px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  width: 320px;
+  color: var(--black-color);
+}
+@media (max-width: 443px) {
+  .change input {
+    width: -webkit-fill-available;
+  }
+}
+.change input::placeholder {
+  color: var(--black-color);
+}
+.change input:focus {
+  outline: none;
+}
+.change button {
+  padding: 5px 0;
+  border-radius: 6px;
+  background-color: var(--purple-color);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  font-family: "Cairo", sans-serif;
+  width: 170px;
+}
+.change div {
+  font-weight: bold;
+  padding: 7px 0;
+  background-color: var(--purple-color);
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  text-align: center;
+  border-radius: 6px;
+  margin-top: 25px;
+}
 .sidebar.close {
   width: 80px;
 }
@@ -332,22 +409,48 @@ li {
   opacity: 0;
   display: none;
 }
+.sidebar.close header .toggle {
+  right: -25px;
+}
+.sidebar.close li a {
+  width: auto;
+}
+.sidebar.close li {
+  margin: 10px 0 0 0;
+}
+.sidebar.close .menu-bar {
+  justify-content: space-between !important;
+}
 @media (max-width: 740px) {
   .sidebar {
-    width: 80px !important;
+    width: 100%;
   }
   .w-44 {
-    min-width: 100% !important;
+    min-width: 44px !important;
   }
-  .sidebar li .text,
-  .header-text .name {
-    display: none;
+  .sidebar header .toggle {
+    right: 0;
   }
-  .sidebar .image-text {
-    gap: 0;
+  .sidebar li {
+    margin: 40px 0;
   }
-  .sidebar.close header .toggle {
-    display: none;
+  .sidebar .menu-bar {
+    justify-content: center !important;
+  }
+  .sidebar li a {
+    justify-content: left;
+    width: 276px;
+    margin: auto;
+  }
+  .sidebar li .icon,
+  .sidebar li .text {
+    font-size: 20px;
+  }
+  .sidebar.close + .content {
+    margin-left: 80px;
+  }
+  .sidebar + .content {
+    margin-left: 0;
   }
 }
 .sub-menu-wrap {
