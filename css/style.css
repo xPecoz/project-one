@@ -54,6 +54,12 @@ li {
   padding: 10px 15px;
   margin-top: 64px;
 }
+::-webkit-scrollbar {
+  background-color: rgb(0 0 0 / 10%);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--purple-color);
+}
 .title {
   border: none;
   position: relative;
@@ -992,6 +998,7 @@ li {
   transition: max-height 0.3s;
   padding: 0;
   overflow: hidden;
+  box-shadow: 0 0 10px var(--shadow-color);
 }
 .exam-form .select .optain p {
   display: flex;
