@@ -78,6 +78,7 @@ let examBox = document.querySelector(".exam-2");
 let computerBox = document.querySelector(".computer");
 let skillsBox = document.querySelector(".skills");
 let total = document.querySelector(".total .deg");
+let classroom = document.querySelector(".class");
 let text = "";
 
 let userFour = {
@@ -2108,6 +2109,7 @@ option.forEach((ele) => {
   ele.addEventListener("click", function () {
     text = ele.textContent;
     optionDiv.classList.remove("h-full");
+    classroom.textContent = text;
   });
 });
 

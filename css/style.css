@@ -204,6 +204,11 @@ li {
   font-weight: bold;
   line-height: 1.5;
 }
+.class {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--black-color);
+}
 @media (max-width: 419px) {
   .head .text {
     font-size: 13px;
