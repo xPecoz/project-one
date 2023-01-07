@@ -77,9 +77,7 @@ let number = document.querySelector(".exam-form input");
 let examBox = document.querySelector(".exam-2");
 let computerBox = document.querySelector(".computer");
 let skillsBox = document.querySelector(".skills");
-let btnShowDeg = document.querySelector(".change button");
-let numberDeg = document.querySelector(".change div");
-let inputDeg = document.querySelector(".change input");
+let total = document.querySelector(".total .deg");
 let text = "";
 
 let userFour = {
@@ -2096,11 +2094,6 @@ let userSix = {
 //   userName.innerHTML = userFour[localStorage.getItem("six")].name;
 // }
 
-btnShowDeg.addEventListener("click", () => {
-  if (inputDeg.value) {
-    numberDeg.textContent = `${(parseInt(inputDeg.value) / 100) * 100}`;
-  }
-});
 number.addEventListener("keydown", (event) => {
   if (event.code === "Enter") {
     showExam();
@@ -2123,16 +2116,27 @@ btnExam.addEventListener("click", showExam);
 function showExam() {
   if (text == "الصف الرابع") {
     if (userFour[number.value]) {
-      arabic.innerHTML = userFour[number.value].subject.Arabic;
-      studies.innerHTML = userFour[number.value].subject.Studies;
-      math.innerHTML = userFour[number.value].subject.Math;
-      english.innerHTML = userFour[number.value].subject.English;
-      science.innerHTML = userFour[number.value].subject.Science;
-      religion.innerHTML = userFour[number.value].subject.Religion;
-      compter.innerHTML = userFour[number.value].subject.Computer;
+      arabic.innerHTML = parseInt(userFour[number.value].subject.Arabic);
+      studies.innerHTML = parseInt(userFour[number.value].subject.Studies);
+      math.innerHTML = parseInt(userFour[number.value].subject.Math);
+      english.innerHTML = parseInt(userFour[number.value].subject.English);
+      science.innerHTML = parseInt(userFour[number.value].subject.Science);
+      religion.innerHTML = parseInt(userFour[number.value].subject.Religion);
+      compter.innerHTML = parseInt(userFour[number.value].subject.Computer);
+      skills.innerHTML = parseInt(userFour[number.value].subject.Skills);
       computerBox.style.display = "flex";
       skillsBox.style.display = "flex";
-      skills.innerHTML = userFour[number.value].subject.Skills;
+      total.innerHTML = `${
+        parseInt(arabic.innerHTML) +
+        parseInt(studies.innerHTML) +
+        parseInt(math.innerHTML) +
+        parseInt(english.innerHTML) +
+        parseInt(science.innerHTML) +
+        parseInt(religion.innerHTML) +
+        parseInt(skills.innerHTML) +
+        parseInt(compter.innerHTML)
+      }`;
+      7;
       userName.innerHTML = userFour[number.value].name;
     } else if (number.value == "") {
       alert("ادخل الكود");
