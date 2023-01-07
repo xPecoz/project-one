@@ -2163,15 +2163,23 @@ function showExam() {
     }
   } else if (text == "الصف السادس") {
     if (userSix[number.value]) {
-      arabic.innerHTML = userSix[number.value].subject.Arabic;
-      studies.innerHTML = userSix[number.value].subject.Studies;
-      math.innerHTML = userSix[number.value].subject.Math;
-      english.innerHTML = userSix[number.value].subject.English;
-      science.innerHTML = userSix[number.value].subject.Science;
-      religion.innerHTML = userSix[number.value].subject.Religion;
+      arabic.innerHTML = parseInt(userSix[number.value].subject.Arabic);
+      studies.innerHTML = parseInt(userSix[number.value].subject.Studies);
+      math.innerHTML = parseInt(userSix[number.value].subject.Math);
+      english.innerHTML = parseInt(userSix[number.value].subject.English);
+      science.innerHTML = parseInt(userSix[number.value].subject.Science);
+      religion.innerHTML = parseInt(userSix[number.value].subject.Religion);
       userName.innerHTML = userSix[number.value].name;
       computerBox.style.display = "none";
       skillsBox.style.display = "none";
+      total.innerHTML = `${
+        parseInt(arabic.innerHTML) +
+        parseInt(studies.innerHTML) +
+        parseInt(math.innerHTML) +
+        parseInt(english.innerHTML) +
+        parseInt(science.innerHTML) +
+        parseInt(religion.innerHTML)
+      }`;
     } else if (number.value == "") {
       alert("ادخل الكود");
     } else {
