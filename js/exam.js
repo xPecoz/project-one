@@ -2118,14 +2118,22 @@ btnExam.addEventListener("click", showExam);
 function showExam() {
   if (text == "الصف الرابع") {
     if (userFour[number.value]) {
-      arabic.innerHTML = parseInt(userFour[number.value].subject.Arabic);
-      studies.innerHTML = parseInt(userFour[number.value].subject.Studies);
-      math.innerHTML = parseInt(userFour[number.value].subject.Math);
-      english.innerHTML = parseInt(userFour[number.value].subject.English);
-      science.innerHTML = parseInt(userFour[number.value].subject.Science);
-      religion.innerHTML = parseInt(userFour[number.value].subject.Religion);
-      compter.innerHTML = parseInt(userFour[number.value].subject.Computer);
-      skills.innerHTML = parseInt(userFour[number.value].subject.Skills);
+      arabic.innerHTML =
+        (parseInt(userFour[number.value].subject.Arabic) / 100) * 100;
+      studies.innerHTML =
+        (parseInt(userFour[number.value].subject.Studies) / 100) * 100;
+      math.innerHTML =
+        (parseInt(userFour[number.value].subject.Math) / 100) * 100;
+      english.innerHTML =
+        (parseInt(userFour[number.value].subject.English) / 100) * 100;
+      science.innerHTML =
+        (parseInt(userFour[number.value].subject.Science) / 100) * 100;
+      religion.innerHTML =
+        (parseInt(userFour[number.value].subject.Religion) / 100) * 100;
+      compter.innerHTML =
+        (parseInt(userFour[number.value].subject.Computer) / 100) * 100;
+      skills.innerHTML =
+        (parseInt(userFour[number.value].subject.Skills) / 100) * 100;
       computerBox.style.display = "flex";
       skillsBox.style.display = "flex";
       total.innerHTML = `${
@@ -2147,15 +2155,22 @@ function showExam() {
     }
   } else if (text == "الصف الخامس") {
     if (userFive[number.value]) {
-      arabic.innerHTML = userFive[number.value].subject.Arabic;
-      studies.innerHTML = userFive[number.value].subject.Studies;
-      math.innerHTML = userFive[number.value].subject.Math;
-      english.innerHTML = userFive[number.value].subject.English;
-      science.innerHTML = userFive[number.value].subject.Science;
-      religion.innerHTML = userFive[number.value].subject.Religion;
-      compter.innerHTML = userFive[number.value].subject.Computer;
-      skills.innerHTML = userFive[number.value].subject.Skills;
-      userName.innerHTML = userFive[number.value].name;
+      arabic.innerHTML =
+        (parseInt(userFive[number.value].subject.Arabic) / 100) * 100;
+      studies.innerHTML =
+        (parseInt(userFive[number.value].subject.Studies) / 100) * 100;
+      math.innerHTML =
+        (parseInt(userFive[number.value].subject.Math) / 100) * 100;
+      english.innerHTML =
+        (parseInt(userFive[number.value].subject.English) / 100) * 100;
+      science.innerHTML =
+        (parseInt(userFive[number.value].subject.Science) / 100) * 100;
+      religion.innerHTML =
+        (parseInt(userFive[number.value].subject.Religion) / 100) * 100;
+      compter.innerHTML =
+        (parseInt(userFive[number.value].subject.Computer) / 100) * 100;
+      skills.innerHTML =
+        (parseInt(userFive[number.value].subject.Skills) / 100) * 100;
       computerBox.style.display = "flex";
       skillsBox.style.display = "flex";
     } else if (number.value == "") {
@@ -2165,12 +2180,18 @@ function showExam() {
     }
   } else if (text == "الصف السادس") {
     if (userSix[number.value]) {
-      arabic.innerHTML = parseInt(userSix[number.value].subject.Arabic);
-      studies.innerHTML = parseInt(userSix[number.value].subject.Studies);
-      math.innerHTML = parseInt(userSix[number.value].subject.Math);
-      english.innerHTML = parseInt(userSix[number.value].subject.English);
-      science.innerHTML = parseInt(userSix[number.value].subject.Science);
-      religion.innerHTML = parseInt(userSix[number.value].subject.Religion);
+      arabic.innerHTML =
+        (parseInt(userSix[number.value].subject.Arabic) / 100) * 100;
+      studies.innerHTML =
+        (parseInt(userSix[number.value].subject.Studies) / 100) * 100;
+      math.innerHTML =
+        (parseInt(userSix[number.value].subject.Math) / 100) * 100;
+      english.innerHTML =
+        (parseInt(userSix[number.value].subject.English) / 100) * 100;
+      science.innerHTML =
+        (parseInt(userSix[number.value].subject.Science) / 100) * 100;
+      religion.innerHTML =
+        (parseInt(userSix[number.value].subject.Religion) / 100) * 100;
       userName.innerHTML = userSix[number.value].name;
       computerBox.style.display = "none";
       skillsBox.style.display = "none";

@@ -1,38 +1,3 @@
-// let user = {
-//   0: {
-//     name: "الإسم : علي",
-//     subject: {
-//       arbic: "العربي : %90",
-//       math: "الرياضيات : %90",
-//       english: "إنجليزي : %90",
-//       science: "علوم : %90",
-//       social: "الدراسات : %90",
-//     },
-//   },
-// };
-
-// let input = document.querySelector("input");
-// let btn = document.querySelector("button");
-// let userName = document.querySelector(".name");
-// let arbic = document.querySelector(".arabic");
-// let math = document.querySelector(".math");
-// let sinc = document.querySelector(".sience");
-// let english = document.querySelector(".E");
-// let social = document.querySelector(".social");
-
-// if (localStorage.getItem("number")) {
-//   input.value = localStorage.getItem("number");
-//   userName.innerHTML = user[localStorage.getItem("number")].name;
-//   arbic.innerHTML = user[localStorage.getItem("number")].subject.arbic;
-//   math.innerHTML = user[localStorage.getItem("number")].subject.math;
-// }
-
-// btn.onclick = function () {
-//   localStorage.setItem("number", input.value);
-//   userName.innerHTML = user[input.value].name;
-//   arbic.innerHTML = user[input.value].subject.arbic;
-//   math.innerHTML = user[input.value].subject.math;
-// };
 // Scrool To Top
 let btnScrol = document.querySelector(".up");
 
@@ -78,14 +43,6 @@ btnDark.addEventListener("click", () => {
   document.body.classList.contains("dark-theme")
     ? localStorage.setItem("dark", true)
     : localStorage.removeItem("dark");
-});
-
-// Log in And Sign In
-let btnPort = document.querySelector(".head img");
-let subMenu = document.querySelector(".sub-menu-wrap");
-
-btnPort.addEventListener("click", () => {
-  subMenu.classList.toggle("open-menu");
 });
 
 // Send Message
