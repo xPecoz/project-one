@@ -12,6 +12,7 @@
   --purple-alt-color: #f1f5f9;
   --title-color: #00eeff;
   --exam-color: var(--icon-color);
+  --exam-alt-color: #ffeb6fbd;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -38,6 +39,7 @@ body.dark-theme {
   --purple-alt-color: #3f51b5;
   --title-color: white;
   --exam-color: rgba(255, 255, 255, 0.07);
+  --exam-alt-color: var(--purple-color);
 }
 a {
   text-decoration: none;
@@ -1082,7 +1084,7 @@ li {
 .exam-form input {
   display: block;
   height: 50px;
-  background-color: var(--exam-color);
+  background-color: var(--purple-color);
   border-radius: 6px;
   padding: 0 10px;
   margin-top: 8px;
@@ -1090,10 +1092,10 @@ li {
   font-weight: bold;
   border: none;
   width: 320px;
-  color: var(--black-color);
+  color: white;
 }
 .exam-form input::placeholder {
-  color: var(--black-color);
+  color: white;
 }
 .exam-form input:focus {
   outline: none;
@@ -1101,19 +1103,20 @@ li {
 .exam-form .select {
   padding: 5px 15px;
   border-radius: 6px 6px 0 0;
-  background-color: var(--exam-color);
-  color: var(--black-color);
+  background-color: var(--purple-color);
+  color: white;
   font-size: 18px;
   font-weight: bold;
   width: 120px;
   text-align: center;
   cursor: pointer;
   position: relative;
+  border-bottom: 1px solid white;
 }
 .exam-form .select .optain {
   font-size: 16px;
   position: absolute;
-  top: 31px;
+  top: 32px;
   background-color: var(--purple-color);
   width: 100%;
   left: 0;
@@ -1174,7 +1177,7 @@ li {
 }
 .exam-2 > div .deg,
 .exam-2 > div .name {
-  background-color: var(--purple-alt-color);
+  background-color: var(--exam-alt-color);
   padding: 7px;
   margin: 0;
   height: 100%;
