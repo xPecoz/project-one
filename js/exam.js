@@ -3191,7 +3191,8 @@ let userSix = {
 
 number.addEventListener("keydown", (event) => {
   if (event.code === "Enter") {
-    showExam();
+    // showExam();
+    console.log(event.code);
   }
 });
 
@@ -3296,74 +3297,7 @@ function showExam() {
   }
 }
 
-// Add Data And Remove Data
-// let chosClass = document.querySelector(".add-Data .select");
-// let chosOptainDiv = document.querySelector(".add-Data .optain");
-// let chosOptain = document.querySelectorAll(".add-Data .select .optain p");
-// let inputFourFive = document.querySelector(".gradesFourFive");
-// let inputSex = document.querySelector(".gradesSex");
-// let inputName = document.querySelectorAll(
-//   ".add-Data > input, .add-Data button"
-// );
-// let className = document.querySelector(".class-2");
-// let addName = document.querySelector(".add-Data > input:first-of-type");
-// let addCode = document.querySelector(`[placeholder=" كود الطالب"]`);
-// let addArabic = document.querySelector(".grades .arabic");
-// let addStudies = document.querySelector(".grades .social");
-// let addMath = document.querySelector(".grades .math");
-// let addEnglish = document.querySelector(".grades .english");
-// let addScience = document.querySelector(".grades .science");
-// let addReligion = document.querySelector(".grades .religion");
-// let addComputer = document.querySelector(".grades .computer");
-// let addSkills = document.querySelector(".grades .skills");
-// let buttonAdd = document.querySelector(".add-Data button");
-
-// chosClass.addEventListener("click", () => {
-//   chosOptainDiv.classList.toggle("h-full");
-// });
-
-// chosOptain.forEach((ele) => {
-//   ele.addEventListener("click", (e) => {
-//     className.textContent = e.currentTarget.textContent;
-//     inputName.forEach((ele) => {
-//       ele.classList.remove("hid");
-//     });
-//     if (
-//       className.textContent == "الصف الرابع" ||
-//       className.textContent == "الصف الخامس"
-//     ) {
-//       inputFourFive.classList.remove("hid");
-//       inputSex.classList.add("hid");
-//     } else if (className.textContent == "الصف السادس") {
-//       inputFourFive.classList.add("hid");
-//       inputSex.classList.remove("hid");
-//     }
-//   });
-// });
-
-// buttonAdd.addEventListener("click", () => {
-//   if (addName.value && addCode.value) {
-//     if (className.textContent == "الصف الرابع") {
-//       userFour[addCode.value] = {
-//         name: addName.value,
-//         subject: {
-//           Arabic: addArabic.value,
-//           Studies: addStudies.value,
-//           Math: addMath.value,
-//           English: addEnglish.value,
-//           Religion: addReligion.value,
-//           Science: addScience.value,
-//           Computer: addComputer.value,
-//           Skills: addSkills.value,
-//         },
-//       };
-//       localStorage.setItem("userFour", JSON.stringify(userFour));
-//       userFour = JSON.parse(localStorage.getItem("userFour"));
-//       alert("تم الإضافة");
-//     } else if (className.textContent == "الصف الخامس") {
-//     } else if (className.textContent == "الصف السادس") {
-//     }
-//   } else {
-//     alert("قم بكتابة الإسم و الكود");
-//   }
-// });
+document.body.oncontextmenu = () => {
+  alert("تم الغاء هذا الحدث للحفاظ علي خصوصية الطلاب");
+  return false;
+};

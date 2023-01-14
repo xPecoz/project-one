@@ -60,69 +60,69 @@ setInterval(() => {
 }, 1000);
 
 // CounDown
-let countDownDate4 = new Date("January 14, 2023").getTime();
-let countDownDate5 = new Date("January 16, 2023").getTime();
-let countDownDate6 = new Date("January 18, 2023").getTime();
+// let countDownDate4 = new Date("January 14, 2023").getTime();
+// let countDownDate5 = new Date("January 11, 2023").getTime();
+// let countDownDate6 = new Date("January 18, 2023").getTime();
 
-let counter4 = setInterval(() => {
-  let dateNow = new Date().getTime();
-  let dateDiff = countDownDate4 - dateNow;
+// let counter4 = setInterval(() => {
+//   let dateNow = new Date().getTime();
+//   let dateDiff = countDownDate4 - dateNow;
 
-  let months = Math.floor(dateDiff / (1000 * 60 * 60 * 24 * 30));
-  let days = Math.floor(
-    (dateDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24)
-  );
-  let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
+//   let months = Math.floor(dateDiff / (1000 * 60 * 60 * 24 * 30));
+//   let days = Math.floor(
+//     (dateDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24)
+//   );
+//   let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
 
-  document.querySelector(".month4").innerHTML = months;
-  document.querySelector(".days4").innerHTML = days;
-  document.querySelector(".hours4").innerHTML = hours;
-  document.querySelector(".minutes4").innerHTML = minutes;
+//   document.querySelector(".month4").innerHTML = months;
+//   document.querySelector(".days4").innerHTML = days;
+//   document.querySelector(".hours4").innerHTML = hours;
+//   document.querySelector(".minutes4").innerHTML = minutes;
 
-  if (dateDiff < 0) {
-    clearInterval(counter4);
-  }
-}, 1000);
+//   if (dateDiff < 0) {
+//     clearInterval(counter4);
+//   }
+// }, 1000);
 
-let counter5 = setInterval(() => {
-  let dateNow = new Date().getTime();
-  let dateDiff = countDownDate5 - dateNow;
+// let counter5 = setInterval(() => {
+//   let dateNow = new Date().getTime();
+//   let dateDiff = countDownDate5 - dateNow;
 
-  let months = Math.floor(dateDiff / (1000 * 60 * 60 * 24 * 30));
-  let days = Math.floor(
-    (dateDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24)
-  );
-  let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
+//   let months = Math.floor(dateDiff / (1000 * 60 * 60 * 24 * 30));
+//   let days = Math.floor(
+//     (dateDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24)
+//   );
+//   let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
 
-  document.querySelector(".month5").innerHTML = months;
-  document.querySelector(".days5").innerHTML = days;
-  document.querySelector(".hours5").innerHTML = hours;
-  document.querySelector(".minutes5").innerHTML = minutes;
+//   document.querySelector(".month5").innerHTML = months;
+//   document.querySelector(".days5").innerHTML = days;
+//   document.querySelector(".hours5").innerHTML = hours;
+//   document.querySelector(".minutes5").innerHTML = minutes;
 
-  if (dateDiff < 0) {
-    clearInterval(counter6);
-  }
-}, 1000);
+//   if (dateDiff < 0) {
+//     clearInterval(counter6);
+//   }
+// }, 1000);
 
-let counter6 = setInterval(() => {
-  let dateNow = new Date().getTime();
-  let dateDiff = countDownDate6 - dateNow;
+// let counter6 = setInterval(() => {
+//   let dateNow = new Date().getTime();
+//   let dateDiff = countDownDate6 - dateNow;
 
-  let months = Math.floor(dateDiff / (1000 * 60 * 60 * 24 * 30));
-  let days = Math.floor(
-    (dateDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24)
-  );
-  let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
+//   let months = Math.floor(dateDiff / (1000 * 60 * 60 * 24 * 30));
+//   let days = Math.floor(
+//     (dateDiff % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24)
+//   );
+//   let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+//   let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
 
-  document.querySelector(".month6").innerHTML = months;
-  document.querySelector(".days6").innerHTML = days;
-  document.querySelector(".hours6").innerHTML = hours;
-  document.querySelector(".minutes6").innerHTML = minutes;
+//   document.querySelector(".month6").innerHTML = months;
+//   document.querySelector(".days6").innerHTML = days;
+//   document.querySelector(".hours6").innerHTML = hours;
+//   document.querySelector(".minutes6").innerHTML = minutes;
 
-  if (dateDiff < 0) {
-    clearInterval(counter6);
-  }
-}, 1000);
+//   if (dateDiff < 0) {
+//     clearInterval(counter6);
+//   }
+// }, 1000);
