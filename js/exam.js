@@ -3299,14 +3299,14 @@ function showExam() {
   }
 }
 
-// window.addEventListener("contextmenu", (e) => {
-//   e.preventDefault();
-//   alert("تم الغاء هذا الحدث للحفاظ علي خصوصية الطلاب");
-//   document.onkeydown = (e) => {
-//     e.preventDefault();
-//     alert("تم الغاء هذا الحدث للحفاظ علي خصوصية الطلاب");
-//   };
-// });
+window.addEventListener("contextmenu", (e) => {
+  e.preventDefault();
+  alert("تم الغاء هذا الحدث للحفاظ علي خصوصية الطلاب");
+  document.onkeydown = (e) => {
+    e.preventDefault();
+    alert("تم الغاء هذا الحدث للحفاظ علي خصوصية الطلاب");
+  };
+});
 
 let arr = [];
 
