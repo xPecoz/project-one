@@ -80,6 +80,7 @@ let computerBox = document.querySelector(".computer");
 let skillsBox = document.querySelector(".skills");
 let total = document.querySelector(".total .deg");
 let classroom = document.querySelector(".class");
+let tops = document.querySelector(".top .deg");
 let text = "";
 
 // Students Data
@@ -2239,9 +2240,9 @@ let userSix = {
       Arabic: 41,
       Math: 42,
       Science: 73,
-      Studies: 68.5,
+      Studies: 69,
       English: 65,
-      Religion: 85.5,
+      Religion: 96,
       Computer: 0,
       Skills: 0,
     },
@@ -2267,7 +2268,7 @@ let userSix = {
       Science: 93,
       Studies: 100,
       English: 96,
-      Religion: 96.5,
+      Religion: 97,
       Computer: 0,
       Skills: 0,
     },
@@ -2278,9 +2279,9 @@ let userSix = {
       Arabic: 73,
       Math: 60,
       Science: 91,
-      Studies: 85.5,
+      Studies: 86,
       English: 87,
-      Religion: 91.5,
+      Religion: 92,
       Computer: 0,
       Skills: 0,
     },
@@ -2290,7 +2291,7 @@ let userSix = {
     subject: {
       Arabic: 88,
       Math: 71,
-      Science: 89.5,
+      Science: 90,
       Studies: 95,
       English: 92,
       Religion: 99,
@@ -2304,7 +2305,7 @@ let userSix = {
       Arabic: 76,
       Math: 83,
       Science: 93,
-      Studies: 97.5,
+      Studies: 98,
       English: 87,
       Religion: 99,
       Computer: 0,
@@ -2316,10 +2317,10 @@ let userSix = {
     subject: {
       Arabic: 85,
       Math: 82,
-      Science: 89.5,
-      Studies: 92.5,
-      English: 73.5,
-      Religion: 96.5,
+      Science: 90,
+      Studies: 93,
+      English: 74,
+      Religion: 97,
       Computer: 0,
       Skills: 0,
     },
@@ -2329,10 +2330,10 @@ let userSix = {
     subject: {
       Arabic: 93,
       Math: 98,
-      Science: 96.5,
-      Studies: 97.5,
+      Science: 97,
+      Studies: 98,
       English: 99,
-      Religion: 97.5,
+      Religion: 98,
       Computer: 0,
       Skills: 0,
     },
@@ -2345,7 +2346,7 @@ let userSix = {
       Science: 93,
       Studies: 95,
       English: 79,
-      Religion: 97.5,
+      Religion: 98,
       Computer: 0,
       Skills: 0,
     },
@@ -2356,7 +2357,7 @@ let userSix = {
       Arabic: 91,
       Math: 95,
       Science: 93,
-      Studies: 97.5,
+      Studies: 98,
       English: 93,
       Religion: 99,
       Computer: 0,
@@ -2370,7 +2371,7 @@ let userSix = {
       Math: 82,
       Science: 92,
       Studies: 90,
-      English: 93.5,
+      English: 94,
       Religion: 99,
       Computer: 0,
       Skills: 0,
@@ -2384,7 +2385,7 @@ let userSix = {
       Science: 85,
       Studies: 75,
       English: 68,
-      Religion: 95.5,
+      Religion: 96,
       Computer: 0,
       Skills: 0,
     },
@@ -2395,7 +2396,7 @@ let userSix = {
       Arabic: 84,
       Math: 77,
       Science: 85,
-      Studies: 87.5,
+      Studies: 88,
       English: 79,
       Religion: 99,
       Computer: 0,
@@ -2408,7 +2409,7 @@ let userSix = {
       Arabic: 96,
       Math: 96,
       Science: 93,
-      Studies: 97.5,
+      Studies: 98,
       English: 97,
       Religion: 100,
       Computer: 0,
@@ -2420,9 +2421,9 @@ let userSix = {
     subject: {
       Arabic: 95,
       Math: 98,
-      Science: 89.5,
+      Science: 90,
       Studies: 95,
-      English: 93.5,
+      English: 94,
       Religion: 99,
       Computer: 0,
       Skills: 0,
@@ -2460,9 +2461,9 @@ let userSix = {
       Arabic: 60,
       Math: 44,
       Science: 86,
-      Studies: 80.5,
+      Studies: 81,
       English: 55,
-      Religion: 95.5,
+      Religion: 96,
       Computer: 0,
       Skills: 0,
     },
@@ -2472,10 +2473,10 @@ let userSix = {
     subject: {
       Arabic: 90,
       Math: 63,
-      Science: 95.5,
+      Science: 96,
       Studies: 79,
-      English: 83.5,
-      Religion: 95.5,
+      English: 84,
+      Religion: 96,
       Computer: 0,
       Skills: 0,
     },
@@ -2483,12 +2484,12 @@ let userSix = {
   60817: {
     name: "محمد حسن جابر عرفات",
     subject: {
-      Arabic: 88.5,
+      Arabic: 89,
       Math: 92,
-      Science: 96.5,
-      Studies: 87.5,
+      Science: 97,
+      Studies: 88,
       English: 95,
-      Religion: 91.5,
+      Religion: 92,
       Computer: 0,
       Skills: 0,
     },
@@ -2498,7 +2499,7 @@ let userSix = {
     subject: {
       Arabic: 83,
       Math: 89,
-      Science: 89.5,
+      Science: 90,
       Studies: 84,
       English: 86,
       Religion: 100,
@@ -2514,7 +2515,7 @@ let userSix = {
       Science: 93,
       Studies: 95,
       English: 100,
-      Religion: 97.5,
+      Religion: 98,
       Computer: 0,
       Skills: 0,
     },
@@ -2538,8 +2539,8 @@ let userSix = {
       Arabic: 42,
       Math: 35,
       Science: 55,
-      Studies: 39.5,
-      English: 44.5,
+      Studies: 40,
+      English: 45,
       Religion: 60,
       Computer: 0,
       Skills: 0,
@@ -2551,8 +2552,8 @@ let userSix = {
       Arabic: 71,
       Math: 48,
       Science: 84,
-      Studies: 59.5,
-      English: 57.5,
+      Studies: 60,
+      English: 58,
       Religion: 70,
       Computer: 0,
       Skills: 0,
@@ -2574,12 +2575,12 @@ let userSix = {
   61055: {
     name: "محمود ابراهيم شاهبور محمد",
     subject: {
-      Arabic: 80.5,
+      Arabic: 81,
       Math: 72,
-      Science: 89.5,
+      Science: 90,
       Studies: 85,
-      English: 91.5,
-      Religion: 95.5,
+      English: 92,
+      Religion: 96,
       Computer: 0,
       Skills: 0,
     },
@@ -2587,9 +2588,9 @@ let userSix = {
   61089: {
     name: "مصطفي اسامه النادي عبد الهادي",
     subject: {
-      Arabic: 88.5,
+      Arabic: 89,
       Math: 100,
-      Science: 96.5,
+      Science: 97,
       Studies: 90,
       English: 96,
       Religion: 95,
@@ -2603,7 +2604,7 @@ let userSix = {
       Arabic: 75,
       Math: 70,
       Science: 86,
-      Studies: 87.5,
+      Studies: 88,
       English: 61,
       Religion: 90,
       Computer: 0,
@@ -2617,8 +2618,8 @@ let userSix = {
       Math: 34,
       Science: 52,
       Studies: 47,
-      English: 34.5,
-      Religion: 42.5,
+      English: 35,
+      Religion: 43,
       Computer: 0,
       Skills: 0,
     },
@@ -2628,10 +2629,10 @@ let userSix = {
     subject: {
       Arabic: 73,
       Math: 38,
-      Science: 93.5,
-      Studies: 75.5,
-      English: 62.5,
-      Religion: 96.5,
+      Science: 94,
+      Studies: 76,
+      English: 63,
+      Religion: 97,
       Computer: 0,
       Skills: 0,
     },
@@ -2639,12 +2640,12 @@ let userSix = {
   61225: {
     name: "ياسين محمد رمضان عبد الغني",
     subject: {
-      Arabic: 76.5,
+      Arabic: 77,
       Math: 45,
-      Science: 86.5,
+      Science: 87,
       Studies: 83,
-      English: 59.5,
-      Religion: 96.5,
+      English: 60,
+      Religion: 97,
       Computer: 0,
       Skills: 0,
     },
@@ -2652,12 +2653,12 @@ let userSix = {
   61259: {
     name: "يوسف ابراهيم ابراهيم ادم",
     subject: {
-      Arabic: 88.5,
+      Arabic: 89,
       Math: 100,
-      Science: 96.5,
+      Science: 97,
       Studies: 100,
       English: 91,
-      Religion: 96.5,
+      Religion: 97,
       Computer: 0,
       Skills: 0,
     },
@@ -2665,12 +2666,12 @@ let userSix = {
   61293: {
     name: "يوسف احمد محمد عبيده",
     subject: {
-      Arabic: 87.5,
+      Arabic: 88,
       Math: 100,
       Science: 100,
-      Studies: 97.5,
+      Studies: 98,
       English: 98,
-      Religion: 97.5,
+      Religion: 98,
       Computer: 0,
       Skills: 0,
     },
@@ -2678,11 +2679,11 @@ let userSix = {
   61327: {
     name: "يوسف محمد عبد الله احمد غطاس",
     subject: {
-      Arabic: 88.5,
+      Arabic: 89,
       Math: 87,
-      Science: 96.5,
-      Studies: 87.5,
-      English: 86.5,
+      Science: 97,
+      Studies: 88,
+      English: 87,
       Religion: 89,
       Computer: 0,
       Skills: 0,
@@ -2691,10 +2692,10 @@ let userSix = {
   61361: {
     name: "يوسف محمد ممدوح محمد",
     subject: {
-      Arabic: 81.5,
+      Arabic: 82,
       Math: 61,
       Science: 93,
-      Studies: 71.5,
+      Studies: 72,
       English: 66,
       Religion: 95,
       Computer: 0,
@@ -2707,7 +2708,7 @@ let userSix = {
       Arabic: 85,
       Math: 52,
       Science: 92,
-      Studies: 87.5,
+      Studies: 88,
       English: 88,
       Religion: 94,
       Computer: 0,
@@ -2719,10 +2720,10 @@ let userSix = {
     subject: {
       Arabic: 83,
       Math: 52,
-      Science: 88.5,
+      Science: 89,
       Studies: 80,
       English: 87,
-      Religion: 96.5,
+      Religion: 97,
       Computer: 0,
       Skills: 0,
     },
@@ -2730,7 +2731,7 @@ let userSix = {
   61463: {
     name: "اسراء محمد عادل محمد",
     subject: {
-      Arabic: 86.5,
+      Arabic: 87,
       Math: 79,
       Science: 92,
       Studies: 95,
@@ -2746,8 +2747,8 @@ let userSix = {
       Arabic: 74,
       Math: 74,
       Science: 89,
-      Studies: 83.5,
-      English: 81.5,
+      Studies: 84,
+      English: 82,
       Religion: 95,
       Computer: 0,
       Skills: 0,
@@ -2758,10 +2759,10 @@ let userSix = {
     subject: {
       Arabic: 70,
       Math: 60,
-      Science: 88.5,
-      Studies: 77.5,
+      Science: 89,
+      Studies: 78,
       English: 72,
-      Religion: 91.5,
+      Religion: 92,
       Computer: 0,
       Skills: 0,
     },
@@ -2772,9 +2773,9 @@ let userSix = {
       Arabic: 91,
       Math: 68,
       Science: 86,
-      Studies: 87.5,
+      Studies: 88,
       English: 98,
-      Religion: 96.5,
+      Religion: 97,
       Computer: 0,
       Skills: 0,
     },
@@ -2798,7 +2799,7 @@ let userSix = {
       Arabic: 78,
       Math: 58,
       Science: 86,
-      Studies: 91.5,
+      Studies: 92,
       English: 92,
       Religion: 94,
       Computer: 0,
@@ -2810,8 +2811,8 @@ let userSix = {
     subject: {
       Arabic: 94,
       Math: 92,
-      Science: 96.5,
-      Studies: 97.5,
+      Science: 97,
+      Studies: 98,
       English: 100,
       Religion: 100,
       Computer: 0,
@@ -2823,10 +2824,10 @@ let userSix = {
     subject: {
       Arabic: 85,
       Math: 78,
-      Science: 96.5,
+      Science: 97,
       Studies: 100,
       English: 94,
-      Religion: 96.5,
+      Religion: 97,
       Computer: 0,
       Skills: 0,
     },
@@ -2863,7 +2864,7 @@ let userSix = {
       Arabic: 93,
       Math: 97,
       Science: 92,
-      Studies: 97.5,
+      Studies: 98,
       English: 100,
       Religion: 100,
       Computer: 0,
@@ -2876,7 +2877,7 @@ let userSix = {
       Arabic: 74,
       Math: 79,
       Science: 92,
-      Studies: 92.5,
+      Studies: 93,
       English: 97,
       Religion: 99,
       Computer: 0,
@@ -2888,8 +2889,8 @@ let userSix = {
     subject: {
       Arabic: 70,
       Math: 49,
-      Science: 89.5,
-      Studies: 77.5,
+      Science: 90,
+      Studies: 78,
       English: 87,
       Religion: 99,
       Computer: 0,
@@ -2915,7 +2916,7 @@ let userSix = {
       Arabic: 83,
       Math: 96,
       Science: 93,
-      Studies: 96.5,
+      Studies: 97,
       English: 100,
       Religion: 100,
       Computer: 0,
@@ -2928,7 +2929,7 @@ let userSix = {
       Arabic: 86,
       Math: 62,
       Science: 86,
-      Studies: 96.5,
+      Studies: 97,
       English: 90,
       Religion: 94,
       Computer: 0,
@@ -2938,12 +2939,12 @@ let userSix = {
   61842: {
     name: "عائشة السيد احمد المتولي",
     subject: {
-      Arabic: 93.5,
+      Arabic: 94,
       Math: 94,
-      Science: 96.5,
+      Science: 97,
       Studies: 100,
       English: 100,
-      Religion: 97.5,
+      Religion: 98,
       Computer: 0,
       Skills: 0,
     },
@@ -2953,9 +2954,9 @@ let userSix = {
     subject: {
       Arabic: 74,
       Math: 80,
-      Science: 75.5,
+      Science: 76,
       Studies: 84,
-      English: 65.5,
+      English: 66,
       Religion: 90,
       Computer: 0,
       Skills: 0,
@@ -2964,12 +2965,12 @@ let userSix = {
   61888: {
     name: "فرح زينهم سعد المنجي",
     subject: {
-      Arabic: 58.5,
+      Arabic: 59,
       Math: 66,
       Science: 84,
       Studies: 85,
       English: 54,
-      Religion: 87.5,
+      Religion: 88,
       Computer: 0,
       Skills: 0,
     },
@@ -2977,12 +2978,12 @@ let userSix = {
   61911: {
     name: "مروه علي عبد الغني عبد الهادي",
     subject: {
-      Arabic: 95.5,
+      Arabic: 96,
       Math: 100,
-      Science: 96.5,
-      Studies: 97.5,
+      Science: 97,
+      Studies: 98,
       English: 99,
-      Religion: 97.5,
+      Religion: 98,
       Computer: 0,
       Skills: 0,
     },
@@ -3018,10 +3019,10 @@ let userSix = {
     subject: {
       Arabic: 87,
       Math: 84,
-      Science: 89.5,
+      Science: 90,
       Studies: 95,
       English: 88,
-      Religion: 96.5,
+      Religion: 97,
       Computer: 0,
       Skills: 0,
     },
@@ -3029,11 +3030,11 @@ let userSix = {
   61993: {
     name: "ملك محسن فهمي سيبويه",
     subject: {
-      Arabic: 94.5,
+      Arabic: 95,
       Math: 98,
-      Science: 96.5,
+      Science: 97,
       Studies: 97.5,
-      English: 93.5,
+      English: 94,
       Religion: 95,
       Computer: 0,
       Skills: 0,
@@ -3042,12 +3043,12 @@ let userSix = {
   62011: {
     name: "ملك محمد شعبان المتولي",
     subject: {
-      Arabic: 76.5,
+      Arabic: 77,
       Math: 94,
       Science: 86,
       Studies: 95,
       English: 77,
-      Religion: 71.5,
+      Religion: 72,
       Computer: 0,
       Skills: 0,
     },
@@ -3058,9 +3059,9 @@ let userSix = {
       Arabic: 55,
       Math: 78,
       Science: 79,
-      Studies: 80.5,
+      Studies: 81,
       English: 61,
-      Religion: 76.5,
+      Religion: 77,
       Computer: 0,
       Skills: 0,
     },
@@ -3081,12 +3082,12 @@ let userSix = {
   62065: {
     name: "مني السيد المتولي ابراهيم",
     subject: {
-      Arabic: 94.5,
+      Arabic: 95,
       Math: 100,
-      Science: 96.5,
+      Science: 97,
       Studies: 100,
       English: 99,
-      Religion: 97.5,
+      Religion: 98,
       Computer: 0,
       Skills: 0,
     },
@@ -3094,12 +3095,12 @@ let userSix = {
   62083: {
     name: "مى ابو الفتوح محمد ابو الفتوح",
     subject: {
-      Arabic: 72.5,
+      Arabic: 73,
       Math: 98,
-      Science: 82.5,
+      Science: 83,
       Studies: 88,
       English: 61,
-      Religion: 76.5,
+      Religion: 77,
       Computer: 0,
       Skills: 0,
     },
@@ -3107,12 +3108,12 @@ let userSix = {
   62101: {
     name: "ندى ياسر عزمي احمد",
     subject: {
-      Arabic: 97.5,
+      Arabic: 98,
       Math: 88,
       Science: 93,
       Studies: 97.5,
       English: 97,
-      Religion: 97.5,
+      Religion: 98,
       Computer: 0,
       Skills: 0,
     },
@@ -3120,12 +3121,12 @@ let userSix = {
   62119: {
     name: "ندي منصور محمد محمد",
     subject: {
-      Arabic: 76.5,
+      Arabic: 77,
       Math: 60,
       Science: 93,
       Studies: 87.5,
       English: 89,
-      Religion: 87.5,
+      Religion: 88,
       Computer: 0,
       Skills: 0,
     },
@@ -3133,12 +3134,12 @@ let userSix = {
   62137: {
     name: "نورا طارق عادل السيد",
     subject: {
-      Arabic: 96.5,
+      Arabic: 97,
       Math: 92,
-      Science: 96.5,
+      Science: 97,
       Studies: 97.5,
-      English: 95.5,
-      Religion: 97.5,
+      English: 96,
+      Religion: 98,
       Computer: 0,
       Skills: 0,
     },
@@ -3287,6 +3288,7 @@ function showExam() {
         Number(english.innerHTML) +
         Number(science.innerHTML)
       }`;
+      tops.innerHTML = userSix[number.value].rank;
     } else if (number.value == "") {
       alert("ادخل الكود");
     } else {
@@ -3297,11 +3299,32 @@ function showExam() {
   }
 }
 
-window.addEventListener("contextmenu", (e) => {
-  e.preventDefault();
-  alert("تم الغاء هذا الحدث للحفاظ علي خصوصية الطلاب");
-  document.onkeydown = (e) => {
-    e.preventDefault();
-    alert("تم الغاء هذا الحدث للحفاظ علي خصوصية الطلاب");
-  };
-});
+// window.addEventListener("contextmenu", (e) => {
+//   e.preventDefault();
+//   alert("تم الغاء هذا الحدث للحفاظ علي خصوصية الطلاب");
+//   document.onkeydown = (e) => {
+//     e.preventDefault();
+//     alert("تم الغاء هذا الحدث للحفاظ علي خصوصية الطلاب");
+//   };
+// });
+
+let arr = [];
+
+for (let prop in userSix) {
+  userSix[prop].subject.total =
+    userSix[prop].subject.Arabic +
+    userSix[prop].subject.English +
+    userSix[prop].subject.Math +
+    userSix[prop].subject.Science +
+    userSix[prop].subject.Studies;
+  arr.push(userSix[prop].subject.total);
+  arr = arr.sort((a, b) => b - a);
+}
+
+for (let i = 0; i < arr.length; i++) {
+  for (let test in userSix) {
+    if (userSix[test].subject.total == arr[i]) {
+      userSix[test].rank = i + 1;
+    }
+  }
+}
