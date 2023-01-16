@@ -2247,19 +2247,19 @@ let userSix = {
   //     Skills: 0,
   //   },
   // },
-  // 60043: {
-  //   name: "ابراهيم محمد المتولي المتولي",
-  //   subject: {
-  //     Arabic: 96,
-  //     Math: 99,
-  //     Science: 93,
-  //     Studies: 100,
-  //     English: 99,
-  //     Religion: 100,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  60043: {
+    name: "ابراهيم محمد المتولي المتولي",
+    subject: {
+      Arabic: 96,
+      Math: 99,
+      Science: 93,
+      Studies: 100,
+      English: 99,
+      Religion: 100,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   60086: {
     name: "احمد السيد بدير عبد الخبير",
     subject: {
