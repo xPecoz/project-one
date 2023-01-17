@@ -2481,19 +2481,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 60817: {
-  //   name: "محمد حسن جابر عرفات",
-  //   subject: {
-  //     Arabic: 89,
-  //     Math: 92,
-  //     Science: 97,
-  //     Studies: 88,
-  //     English: 95,
-  //     Religion: 92,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  60817: {
+    name: "محمد حسن جابر عرفات",
+    subject: {
+      Arabic: 89,
+      Math: 92,
+      Science: 97,
+      Studies: 88,
+      English: 95,
+      Religion: 92,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   60851: {
     name: "محمد حماده عبد الهادي علي",
     subject: {
