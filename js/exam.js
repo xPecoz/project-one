@@ -2598,19 +2598,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 61123: {
-  //   name: "مكرم رضا عبد العليم يوسف",
-  //   subject: {
-  //     Arabic: 75,
-  //     Math: 70,
-  //     Science: 86,
-  //     Studies: 88,
-  //     English: 61,
-  //     Religion: 90,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  61123: {
+    name: "مكرم رضا عبد العليم يوسف",
+    subject: {
+      Arabic: 75,
+      Math: 70,
+      Science: 86,
+      Studies: 88,
+      English: 61,
+      Religion: 90,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   61157: {
     name: "نادر محمود احمد محمود",
     subject: {
@@ -2728,19 +2728,19 @@ let userSix = {
   //     Skills: 0,
   //   },
   // },
-  // 61463: {
-  //   name: "اسراء محمد عادل محمد",
-  //   subject: {
-  //     Arabic: 87,
-  //     Math: 79,
-  //     Science: 92,
-  //     Studies: 95,
-  //     English: 86,
-  //     Religion: 99,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  61463: {
+    name: "اسراء محمد عادل محمد",
+    subject: {
+      Arabic: 87,
+      Math: 79,
+      Science: 92,
+      Studies: 95,
+      English: 86,
+      Religion: 99,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   // 61497: {
   //   name: "ايمان بدير فتحي السعيد النجار",
   //   subject: {
@@ -3092,19 +3092,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 62083: {
-  //   name: "مى ابو الفتوح محمد ابو الفتوح",
-  //   subject: {
-  //     Arabic: 73,
-  //     Math: 98,
-  //     Science: 83,
-  //     Studies: 88,
-  //     English: 61,
-  //     Religion: 77,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  62083: {
+    name: "مى ابو الفتوح محمد ابو الفتوح",
+    subject: {
+      Arabic: 73,
+      Math: 98,
+      Science: 83,
+      Studies: 88,
+      English: 61,
+      Religion: 77,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   // 62101: {
   //   name: "ندى ياسر عزمي احمد",
   //   subject: {
