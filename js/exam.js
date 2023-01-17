@@ -2858,19 +2858,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 61704: {
-  //   name: "جودي محمد ابو السادات منصور",
-  //   subject: {
-  //     Arabic: 93,
-  //     Math: 97,
-  //     Science: 92,
-  //     Studies: 98,
-  //     English: 100,
-  //     Religion: 100,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  61704: {
+    name: "جودي محمد ابو السادات منصور",
+    subject: {
+      Arabic: 93,
+      Math: 97,
+      Science: 92,
+      Studies: 98,
+      English: 100,
+      Religion: 100,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   // 61727: {
   //   name: "جومانا ماجد السيد ابو خليل",
   //   subject: {
