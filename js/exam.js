@@ -2819,19 +2819,19 @@ let userSix = {
   //     Skills: 0,
   //   },
   // },
-  // 61635: {
-  //   name: "جنه محمود علي رجب زلمه",
-  //   subject: {
-  //     Arabic: 85,
-  //     Math: 78,
-  //     Science: 97,
-  //     Studies: 100,
-  //     English: 94,
-  //     Religion: 97,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  61635: {
+    name: "جنه محمود علي رجب زلمه",
+    subject: {
+      Arabic: 85,
+      Math: 78,
+      Science: 97,
+      Studies: 100,
+      English: 94,
+      Religion: 97,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   // 61658: {
   //   name: "جني ابراهيم عوض السعيد",
   //   subject: {
