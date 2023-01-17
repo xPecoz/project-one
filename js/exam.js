@@ -2871,19 +2871,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 61727: {
-  //   name: "جومانا ماجد السيد ابو خليل",
-  //   subject: {
-  //     Arabic: 74,
-  //     Math: 79,
-  //     Science: 92,
-  //     Studies: 93,
-  //     English: 97,
-  //     Religion: 99,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  61727: {
+    name: "جومانا ماجد السيد ابو خليل",
+    subject: {
+      Arabic: 74,
+      Math: 79,
+      Science: 92,
+      Studies: 93,
+      English: 97,
+      Religion: 99,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   61750: {
     name: "حبيبه محمود محمد محمود",
     subject: {
