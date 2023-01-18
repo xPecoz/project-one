@@ -2234,19 +2234,19 @@ let userFive = {
   },
 };
 let userSix = {
-  // 60000: {
-  //   name: "ابراهيم الشحات محمد ابو الفتوح",
-  //   subject: {
-  //     Arabic: 41,
-  //     Math: 42,
-  //     Science: 73,
-  //     Studies: 69,
-  //     English: 65,
-  //     Religion: 96,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  60000: {
+    name: "ابراهيم الشحات محمد ابو الفتوح",
+    subject: {
+      Arabic: 41,
+      Math: 42,
+      Science: 73,
+      Studies: 69,
+      English: 65,
+      Religion: 96,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   60043: {
     name: "ابراهيم محمد المتولي المتولي",
     subject: {
@@ -2338,19 +2338,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 60344: {
-  //   name: "السيد محمد فرج عبد الرازق",
-  //   subject: {
-  //     Arabic: 92,
-  //     Math: 93,
-  //     Science: 93,
-  //     Studies: 95,
-  //     English: 79,
-  //     Religion: 98,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  60344: {
+    name: "السيد محمد فرج عبد الرازق",
+    subject: {
+      Arabic: 92,
+      Math: 93,
+      Science: 93,
+      Studies: 95,
+      English: 79,
+      Religion: 98,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   60387: {
     name: "ايهاب طارق محمد ابراهيم",
     subject: {
