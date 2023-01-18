@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مدرسة عبدالله النديم | الأوراق</title>
+    <title>مدرسة عبدالله النديم | المذكرات</title>
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -21,6 +21,7 @@
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
+    <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
   </head>
   <body class="dark-theme">
     <nav class="sidebar close">
@@ -45,25 +46,25 @@
               </a>
             </li>
             <li class="nav-link">
-              <a class="" href="exam.html">
+              <a href="exam.html">
                 <i class="uil uil-arrow-growth icon"></i>
                 <span class="text nav-text">نتيجية الإمتحانات</span>
               </a>
             </li>
             <li class="nav-link">
-              <a class="active" href="papers.html">
+              <a href="papers.html">
                 <i class="uil uil-file-info-alt icon"></i>
                 <span class="text nav-text">التقديم في المدرسة</span>
               </a>
             </li>
             <li class="nav-link">
-              <a class="" href="feedback.html">
+              <a href="feedback.html">
                 <i class="uil uil-envelope-question icon"></i>
                 <span class="text nav-text">الأراء</span>
               </a>
             </li>
             <li class="nav-link">
-              <a href="books.html">
+              <a class="active" href="books.html">
                 <i class="uil uil-book-open icon"></i>
                 <span class="text nav-text">المواد الدراسية</span>
               </a>
@@ -83,17 +84,33 @@
       <!-- Start Main Page -->
       <div class="main-page">
         <div class="container">
-          <h1 class="h1-papers">أوراق التقديم</h1>
-          <p class="dec"></p>
-          <h2>الأوراق</h2>
-          <div class="box-papers">
-            <p>صورة من بطاقة الرقم القومي لولي الأمر</p>
-            <p>شهادة ميلاد الطفل (كمبيوتر)</p>
-            <p>ملف كامل الدمغات</p>
-            <p>عشرة صور شخصية حديثة للطفل، مقاس أربعة في ستة وبخلفية بيضاء</p>
-            <p>ما يثبت محل السكن، مثل إيصال غاز أو كهرباء أو المياه</p>
-            <p>البطاقة الصحية</p>
-            <p>دمغات التأمين الصحي ب ثمانية وثمانون جنيه</p>
+          <h1 class="h1-book">المواد الدراسية</h1>
+          <p class="dec">هنا بإمكانك الحصول علي مذكرات للمواد</p>
+          <h2>العلوم</h2>
+          <div class="boxs">
+            <div class="box">
+              <div class="emty" style="padding: 10px">
+                <div class="text">اسئلة ترم أول</div>
+                <a
+                  href="pdfs/New Microsoft Excel Worksheet.pdf"
+                  download="()"
+                  style="
+                    margin: auto;
+                    padding: 0;
+                    width: 175px;
+                    height: 63px;
+                    background-color: var(--box-color);
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                  class="coolBeans"
+                >
+                  تحميل الأن
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

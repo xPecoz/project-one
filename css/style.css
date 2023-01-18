@@ -1100,7 +1100,7 @@ li {
 .exam-form input:focus {
   outline: none;
 }
-.exam-form .select {
+.select {
   padding: 5px 15px;
   border-radius: 6px 6px 0 0;
   background-color: var(--purple-color);
@@ -1113,7 +1113,7 @@ li {
   position: relative;
   border-bottom: 1px solid white;
 }
-.exam-form .select .optain {
+.select .optain {
   font-size: 16px;
   position: absolute;
   top: 32px;
@@ -1129,7 +1129,7 @@ li {
   overflow: hidden;
   box-shadow: 0 0 10px var(--shadow-color);
 }
-.exam-form .select .optain p {
+.select .optain p {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1137,7 +1137,7 @@ li {
   padding: 16px 0;
   color: white;
 }
-.exam-form .select .optain p:not(:last-child) {
+.select .optain p:not(:last-child) {
   border-bottom: 1px solid white;
 }
 .exam-form button {
@@ -1223,3 +1223,157 @@ li {
   }
 }
 /* End Exam */
+.add-Data {
+  background-color: var(--box-color);
+  margin: 0 15px;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.add-Data .select {
+  margin: 0 auto 10px;
+}
+.add-Data .hid {
+  display: none;
+}
+.add-Data > input {
+  width: 260px;
+  margin: auto;
+  background-color: var(--purple-color);
+  border: none;
+  border-radius: 6px;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+@media (max-width: 392px) {
+  .add-Data > input {
+    width: -webkit-fill-available;
+  }
+}
+.add-Data > input::placeholder {
+  color: white;
+}
+.add-Data > input:focus {
+  outline: none;
+}
+.grades {
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% / 3) - 10px));
+  gap: 15px;
+  margin-top: 25px;
+}
+@media (max-width: 770px) {
+  .grades {
+    grid-template-columns: repeat(2, calc(50% - 10px));
+  }
+}
+@media (max-width: 419px) {
+  .grades {
+    grid-template-columns: 100%;
+  }
+}
+.grades input {
+  background-color: var(--purple-color);
+  border: none;
+  border-radius: 6px;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.grades input::placeholder {
+  color: white;
+}
+.grades input:focus {
+  outline: none;
+}
+.add-Data button {
+  width: 260px;
+  margin: auto;
+  background-color: var(--purple-color);
+  border: none;
+  border-radius: 6px;
+  padding: 7px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+@media (max-width: 392px) {
+  .add-Data button {
+    width: -webkit-fill-available;
+  }
+}
+.add-Data .class-2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--black-color);
+  text-align: center;
+  line-height: 1.8;
+}
+/* Start Books */
+.h1-book {
+  animation: control-width-5 5s 1s steps(15) infinite both,
+    blink 0.5s 1s infinite !important;
+}
+@keyframes control-width-5 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 184px;
+  }
+  100% {
+    width: 0;
+  }
+}
+/* End Books */
+.coolBeans {
+  border: 2px solid currentColor;
+  border-radius: 3rem;
+  color: var(--purple-color);
+  font-size: 25px;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 12px 18px;
+  transition: 0.2s transform ease-in-out;
+  position: relative;
+  z-index: 0;
+}
+.coolBeans::after {
+  background-color: var(--purple-color);
+  border-radius: 3rem;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+.coolBeans:hover::after {
+  transform: translate(0, 0);
+}
+.coolBeans:hover {
+  border: 2px solid transparent;
+  color: white;
+  transform: scale(1.05);
+  will-change: transform;
+}
+.box .text {
+  color: var(--black-color);
+  padding: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
