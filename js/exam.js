@@ -3215,27 +3215,27 @@ btnExam.addEventListener("click", showExam);
 function showExam() {
   if (text == "الصف الرابع") {
     if (userFour[number.value]) {
-      arabic.innerHTML = userFour[number.value].subject.Arabic;
-      studies.innerHTML = userFour[number.value].subject.Studies;
-      math.innerHTML = userFour[number.value].subject.Math;
-      english.innerHTML = userFour[number.value].subject.English;
-      science.innerHTML = userFour[number.value].subject.Science;
-      religion.innerHTML = userFour[number.value].subject.Religion;
-      compter.innerHTML = userFour[number.value].subject.Computer;
-      skills.innerHTML = userFour[number.value].subject.Skills;
-      computerBox.style.display = "flex";
-      skillsBox.style.display = "flex";
-      total.innerHTML = `${
-        Number(arabic.innerHTML) +
-        Number(studies.innerHTML) +
-        Number(math.innerHTML) +
-        Number(english.innerHTML) +
-        Number(science.innerHTML) +
-        Number(religion.innerHTML) +
-        Number(skills.innerHTML) +
-        Number(compter.innerHTML)
-      }`;
-      7;
+      // arabic.innerHTML = userFour[number.value].subject.Arabic;
+      // studies.innerHTML = userFour[number.value].subject.Studies;
+      // math.innerHTML = userFour[number.value].subject.Math;
+      // english.innerHTML = userFour[number.value].subject.English;
+      // science.innerHTML = userFour[number.value].subject.Science;
+      // religion.innerHTML = userFour[number.value].subject.Religion;
+      // compter.innerHTML = userFour[number.value].subject.Computer;
+      // skills.innerHTML = userFour[number.value].subject.Skills;
+      // computerBox.style.display = "flex";
+      // skillsBox.style.display = "flex";
+      // total.innerHTML = `${
+      //   Number(arabic.innerHTML) +
+      //   Number(studies.innerHTML) +
+      //   Number(math.innerHTML) +
+      //   Number(english.innerHTML) +
+      //   Number(science.innerHTML) +
+      //   Number(religion.innerHTML) +
+      //   Number(skills.innerHTML) +
+      //   Number(compter.innerHTML)
+      // }`;
+      // 7;
       userName.innerHTML = userFour[number.value].name;
     } else if (number.value == "") {
       alert("ادخل الكود");
@@ -3244,27 +3244,27 @@ function showExam() {
     }
   } else if (text == "الصف الخامس") {
     if (userFive[number.value]) {
-      arabic.innerHTML = userFive[number.value].subject.Arabic;
-      studies.innerHTML = userFive[number.value].subject.Studies;
-      math.innerHTML = userFive[number.value].subject.Math;
-      english.innerHTML = userFive[number.value].subject.English;
-      science.innerHTML = userFive[number.value].subject.Science;
-      religion.innerHTML = userFive[number.value].subject.Religion;
-      compter.innerHTML = userFive[number.value].subject.Computer;
-      skills.innerHTML = userFive[number.value].subject.Skills;
-      userName.innerHTML = userFive[number.value].name;
-      computerBox.style.display = "flex";
-      skillsBox.style.display = "flex";
-      total.innerHTML = `${
-        Number(arabic.innerHTML) +
-        Number(studies.innerHTML) +
-        Number(math.innerHTML) +
-        Number(english.innerHTML) +
-        Number(science.innerHTML) +
-        Number(religion.innerHTML) +
-        Number(skills.innerHTML) +
-        Number(compter.innerHTML)
-      }`;
+      // arabic.innerHTML = userFive[number.value].subject.Arabic;
+      // studies.innerHTML = userFive[number.value].subject.Studies;
+      // math.innerHTML = userFive[number.value].subject.Math;
+      // english.innerHTML = userFive[number.value].subject.English;
+      // science.innerHTML = userFive[number.value].subject.Science;
+      // religion.innerHTML = userFive[number.value].subject.Religion;
+      // compter.innerHTML = userFive[number.value].subject.Computer;
+      // skills.innerHTML = userFive[number.value].subject.Skills;
+      // userName.innerHTML = userFive[number.value].name;
+      // computerBox.style.display = "flex";
+      // skillsBox.style.display = "flex";
+      // total.innerHTML = `${
+      //   Number(arabic.innerHTML) +
+      //   Number(studies.innerHTML) +
+      //   Number(math.innerHTML) +
+      //   Number(english.innerHTML) +
+      //   Number(science.innerHTML) +
+      //   Number(religion.innerHTML) +
+      //   Number(skills.innerHTML) +
+      //   Number(compter.innerHTML)
+      // }`;
     } else if (number.value == "") {
       alert("ادخل الكود");
     } else {
