@@ -3105,19 +3105,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 62101: {
-  //   name: "ندى ياسر عزمي احمد",
-  //   subject: {
-  //     Arabic: 98,
-  //     Math: 88,
-  //     Science: 93,
-  //     Studies: 97.5,
-  //     English: 97,
-  //     Religion: 98,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  62101: {
+    name: "ندى ياسر عزمي احمد",
+    subject: {
+      Arabic: 98,
+      Math: 88,
+      Science: 93,
+      Studies: 97.5,
+      English: 97,
+      Religion: 98,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   62119: {
     name: "ندي منصور محمد محمد",
     subject: {
