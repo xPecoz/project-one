@@ -969,19 +969,19 @@ let userFour = {
   //     Skills: 89,
   //   },
   // },
-  // 42443: {
-  //   name: "لين خليل محمد موفق هلال",
-  //   subject: {
-  //     Arabic: 93,
-  //     Math: 81,
-  //     Science: 87,
-  //     Studies: 84,
-  //     English: 70,
-  //     Religion: 86,
-  //     Computer: 86,
-  //     Skills: 75,
-  //   },
-  // },
+  42443: {
+    name: "لين خليل محمد موفق هلال",
+    subject: {
+      Arabic: 93,
+      Math: 81,
+      Science: 87,
+      Studies: 84,
+      English: 70,
+      Religion: 86,
+      Computer: 86,
+      Skills: 75,
+    },
+  },
   // 42497: {
   //   name: "ليندا سمير محمد احمد",
   //   subject: {
@@ -1099,19 +1099,19 @@ let userFour = {
   //     Skills: 0,
   //   },
   // },
-  // 42983: {
-  //   name: "ملك مايز زينهم الطمبكشي",
-  //   subject: {
-  //     Arabic: 83,
-  //     Math: 62,
-  //     Science: 81,
-  //     Studies: 78,
-  //     English: 52,
-  //     Religion: 72,
-  //     Computer: 67,
-  //     Skills: 81,
-  //   },
-  // },
+  42983: {
+    name: "ملك مايز زينهم الطمبكشي",
+    subject: {
+      Arabic: 83,
+      Math: 62,
+      Science: 81,
+      Studies: 78,
+      English: 52,
+      Religion: 72,
+      Computer: 67,
+      Skills: 81,
+    },
+  },
   // 43037: {
   //   name: "منة الله محمد عبدالعزيز محمد نمره",
   //   subject: {
@@ -1151,19 +1151,19 @@ let userFour = {
       Skills: 94,
     },
   },
-  // 43145: {
-  //   name: "منه زين العابدين العيسوى عبدالهادي",
-  //   subject: {
-  //     Arabic: 85,
-  //     Math: 81,
-  //     Science: 86,
-  //     Studies: 82,
-  //     English: 76,
-  //     Religion: 68,
-  //     Computer: 90,
-  //     Skills: 92,
-  //   },
-  // },
+  43145: {
+    name: "منه زين العابدين العيسوى عبدالهادي",
+    subject: {
+      Arabic: 85,
+      Math: 81,
+      Science: 86,
+      Studies: 82,
+      English: 76,
+      Religion: 68,
+      Computer: 90,
+      Skills: 92,
+    },
+  },
   // 43181: {
   //   name: "منه محمد شعبان المتولي رجب",
   //   subject: {
@@ -1413,19 +1413,19 @@ let userFive = {
       Skills: 98,
     },
   },
-  // 50560: {
-  //   name: "زين الشام سعيد الاحمر",
-  //   subject: {
-  //     Arabic: 96,
-  //     Math: 92,
-  //     Science: 100,
-  //     Studies: 95,
-  //     English: 94,
-  //     Religion: 98,
-  //     Computer: 98,
-  //     Skills: 94,
-  //   },
-  // },
+  50560: {
+    name: "زين الشام سعيد الاحمر",
+    subject: {
+      Arabic: 96,
+      Math: 92,
+      Science: 100,
+      Studies: 95,
+      English: 94,
+      Religion: 98,
+      Computer: 98,
+      Skills: 94,
+    },
+  },
   // 50616: {
   //   name: "صلاح محمد صلاح محمد",
   //   subject: {
