@@ -2806,19 +2806,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 61612: {
-  //   name: "جانا محمد حسام سعد المحمدي",
-  //   subject: {
-  //     Arabic: 94,
-  //     Math: 92,
-  //     Science: 97,
-  //     Studies: 98,
-  //     English: 100,
-  //     Religion: 100,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  61612: {
+    name: "جانا محمد حسام سعد المحمدي",
+    subject: {
+      Arabic: 94,
+      Math: 92,
+      Science: 97,
+      Studies: 98,
+      English: 100,
+      Religion: 100,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   61635: {
     name: "جنه محمود علي رجب زلمه",
     subject: {
@@ -2949,19 +2949,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 61865: {
-  //   name: "علياء محمود فريد الشربيني",
-  //   subject: {
-  //     Arabic: 74,
-  //     Math: 80,
-  //     Science: 76,
-  //     Studies: 84,
-  //     English: 66,
-  //     Religion: 90,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  61865: {
+    name: "علياء محمود فريد الشربيني",
+    subject: {
+      Arabic: 74,
+      Math: 80,
+      Science: 76,
+      Studies: 84,
+      English: 66,
+      Religion: 90,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   // 61888: {
   //   name: "فرح زينهم سعد المنجي",
   //   subject: {
