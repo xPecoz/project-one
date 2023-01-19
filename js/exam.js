@@ -254,19 +254,19 @@ let userFour = {
   //     Skills: 0,
   //   },
   // },
-  // 40559: {
-  //   name: "عزت عادل عزت المغاوري الغطاس",
-  //   subject: {
-  //     Arabic: 87,
-  //     Math: 99,
-  //     Science: 98,
-  //     Studies: 86,
-  //     English: 64,
-  //     Religion: 83,
-  //     Computer: 87,
-  //     Skills: 93,
-  //   },
-  // },
+  40559: {
+    name: "عزت عادل عزت المغاوري الغطاس",
+    subject: {
+      Arabic: 87,
+      Math: 99,
+      Science: 98,
+      Studies: 86,
+      English: 64,
+      Religion: 83,
+      Computer: 87,
+      Skills: 93,
+    },
+  },
   // 40602: {
   //   name: "عمر ابراهيم عمر محمد مصطفي",
   //   subject: {
@@ -1647,19 +1647,19 @@ let userFive = {
   //     Skills: 87,
   //   },
   // },
-  // 51469: {
-  //   name: "نور محمد احمد محمد ابراهيم",
-  //   subject: {
-  //     Arabic: 97,
-  //     Math: 91,
-  //     Science: 98,
-  //     Studies: 93,
-  //     English: 98,
-  //     Religion: 83,
-  //     Computer: 97,
-  //     Skills: 97,
-  //   },
-  // },
+  51469: {
+    name: "نور محمد احمد محمد ابراهيم",
+    subject: {
+      Arabic: 97,
+      Math: 91,
+      Science: 98,
+      Studies: 93,
+      English: 98,
+      Religion: 83,
+      Computer: 97,
+      Skills: 97,
+    },
+  },
   51514: {
     name: "هيثم خالد فرج الدريني",
     subject: {
@@ -1803,19 +1803,19 @@ let userFive = {
   //     Skills: 59,
   //   },
   // },
-  // 51998: {
-  //   name: "جنا محمد سامي عبد الرازق",
-  //   subject: {
-  //     Arabic: 97,
-  //     Math: 99,
-  //     Science: 100,
-  //     Studies: 92,
-  //     English: 99,
-  //     Religion: 94,
-  //     Computer: 100,
-  //     Skills: 98,
-  //   },
-  // },
+  51998: {
+    name: "جنا محمد سامي عبد الرازق",
+    subject: {
+      Arabic: 97,
+      Math: 99,
+      Science: 100,
+      Studies: 92,
+      English: 99,
+      Religion: 94,
+      Computer: 100,
+      Skills: 98,
+    },
+  },
   52032: {
     name: "جني وليد صبحي عبد المعطي",
     subject: {
@@ -3192,7 +3192,7 @@ let userSix = {
 
 number.addEventListener("keydown", (event) => {
   if (event.code === "Enter") {
-    // showExam();
+    showExam();
     console.log(event.code);
   }
 });
