@@ -1543,19 +1543,19 @@ let userFive = {
       Skills: 94,
     },
   },
-  // 51109: {
-  //   name: "محمد رزق عبد الرازق رزق",
-  //   subject: {
-  //     Arabic: 93,
-  //     Math: 89,
-  //     Science: 99,
-  //     Studies: 88,
-  //     English: 94,
-  //     Religion: 95,
-  //     Computer: 88,
-  //     Skills: 92,
-  //   },
-  // },
+  51109: {
+    name: "محمد رزق عبد الرازق رزق",
+    subject: {
+      Arabic: 93,
+      Math: 89,
+      Science: 99,
+      Studies: 88,
+      English: 94,
+      Religion: 95,
+      Computer: 88,
+      Skills: 92,
+    },
+  },
   51154: {
     name: "محمد شريف عبد الغفار منصور",
     subject: {
