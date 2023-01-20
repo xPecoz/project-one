@@ -2102,19 +2102,19 @@ let userFive = {
   //     Skills: 93,
   //   },
   // },
-  // 52736: {
-  //   name: "ملك يوسف عبد العليم يوسف",
-  //   subject: {
-  //     Arabic: 91,
-  //     Math: 76,
-  //     Science: 90,
-  //     Studies: 88,
-  //     English: 95,
-  //     Religion: 88,
-  //     Computer: 82,
-  //     Skills: 92,
-  //   },
-  // },
+  52736: {
+    name: "ملك يوسف عبد العليم يوسف",
+    subject: {
+      Arabic: 91,
+      Math: 76,
+      Science: 90,
+      Studies: 88,
+      English: 95,
+      Religion: 88,
+      Computer: 82,
+      Skills: 92,
+    },
+  },
   // 52759: {
   //   name: "منه ابراهيم ابراهيم آدم",
   //   subject: {
@@ -2312,19 +2312,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 60258: {
-  //   name: "اسلام فرج عطيه قاسم",
-  //   subject: {
-  //     Arabic: 85,
-  //     Math: 82,
-  //     Science: 90,
-  //     Studies: 93,
-  //     English: 74,
-  //     Religion: 97,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  60258: {
+    name: "اسلام فرج عطيه قاسم",
+    subject: {
+      Arabic: 85,
+      Math: 82,
+      Science: 90,
+      Studies: 93,
+      English: 74,
+      Religion: 97,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   60301: {
     name: "السيد محمد شعبان عوض",
     subject: {
