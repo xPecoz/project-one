@@ -1165,19 +1165,19 @@ let userFour = {
       Skills: 92,
     },
   },
-  // 43181: {
-  //   name: "منه محمد شعبان المتولي رجب",
-  //   subject: {
-  //     Arabic: 74,
-  //     Math: 65,
-  //     Science: 79,
-  //     Studies: 77,
-  //     English: 51,
-  //     Religion: 67,
-  //     Computer: 76,
-  //     Skills: 88,
-  //   },
-  // },
+  43181: {
+    name: "منه محمد شعبان المتولي رجب",
+    subject: {
+      Arabic: 74,
+      Math: 65,
+      Science: 79,
+      Studies: 77,
+      English: 51,
+      Religion: 67,
+      Computer: 76,
+      Skills: 88,
+    },
+  },
   // 43217: {
   //   name: "ميار محمد فرج عبدالرازق محمد",
   //   subject: {
@@ -3041,19 +3041,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 62011: {
-  //   name: "ملك محمد شعبان المتولي",
-  //   subject: {
-  //     Arabic: 77,
-  //     Math: 94,
-  //     Science: 86,
-  //     Studies: 95,
-  //     English: 77,
-  //     Religion: 72,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  62011: {
+    name: "ملك محمد شعبان المتولي",
+    subject: {
+      Arabic: 77,
+      Math: 94,
+      Science: 86,
+      Studies: 95,
+      English: 77,
+      Religion: 72,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   62029: {
     name: "ملك محمد منصور عباس",
     subject: {
