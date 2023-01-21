@@ -1112,19 +1112,19 @@ let userFour = {
       Skills: 81,
     },
   },
-  // 43037: {
-  //   name: "منة الله محمد عبدالعزيز محمد نمره",
-  //   subject: {
-  //     Arabic: 98,
-  //     Math: 97,
-  //     Science: 100,
-  //     Studies: 97,
-  //     English: 89,
-  //     Religion: 92,
-  //     Computer: 93,
-  //     Skills: 97,
-  //   },
-  // },
+  43037: {
+    name: "منة الله محمد عبدالعزيز محمد نمره",
+    subject: {
+      Arabic: 98,
+      Math: 97,
+      Science: 100,
+      Studies: 97,
+      English: 89,
+      Religion: 92,
+      Computer: 93,
+      Skills: 97,
+    },
+  },
   // 43073: {
   //   name: "منه احمد فراج امين",
   //   subject: {
@@ -3158,37 +3158,6 @@ let userSix = {
     },
   },
 };
-
-// if (localStorage.getItem("four") !== "") {
-//   number.value = localStorage.getItem("four");
-//   arabic.innerHTML = userFour[localStorage.getItem("four")].subject.Arabic;
-//   studies.innerHTML = userFour[localStorage.getItem("four")].subject.Studies;
-//   math.innerHTML = userFour[localStorage.getItem("four")].subject.Math;
-//   english.innerHTML = userFour[localStorage.getItem("four")].subject.English;
-//   science.innerHTML = userFour[localStorage.getItem("four")].subject.Science;
-//   religion.innerHTML = userFour[localStorage.getItem("four")].subject.Religion;
-//   userName.innerHTML = userFour[localStorage.getItem("four")].name;
-// } else if (localStorage.getItem("five") !== "") {
-//   number.value = localStorage.getItem("five");
-//   text = "الصف الخامس";
-//   arabic.innerHTML = userFour[localStorage.getItem("five")].subject.Arabic;
-//   studies.innerHTML = userFour[localStorage.getItem("five")].subject.Studies;
-//   math.innerHTML = userFour[localStorage.getItem("five")].subject.Math;
-//   english.innerHTML = userFour[localStorage.getItem("five")].subject.English;
-//   science.innerHTML = userFour[localStorage.getItem("five")].subject.Science;
-//   religion.innerHTML = userFour[localStorage.getItem("five")].subject.Religion;
-//   userName.innerHTML = userFour[localStorage.getItem("five")].name;
-// } else if (localStorage.getItem("six") ) {
-//   number.value = localStorage.getItem("six");
-//   text = "الصف السادس";
-//   arabic.innerHTML = userFour[localStorage.getItem("six")].subject.Arabic;
-//   studies.innerHTML = userFour[localStorage.getItem("six")].subject.Studies;
-//   math.innerHTML = userFour[localStorage.getItem("six")].subject.Math;
-//   english.innerHTML = userFour[localStorage.getItem("six")].subject.English;
-//   science.innerHTML = userFour[localStorage.getItem("six")].subject.Science;
-//   religion.innerHTML = userFour[localStorage.getItem("six")].subject.Religion;
-//   userName.innerHTML = userFour[localStorage.getItem("six")].name;
-// }
 
 number.addEventListener("keydown", (event) => {
   if (event.code === "Enter") {
