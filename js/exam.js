@@ -81,6 +81,7 @@ let skillsBox = document.querySelector(".skills");
 let total = document.querySelector(".total .deg");
 let classroom = document.querySelector(".class");
 let tops = document.querySelector(".top .deg");
+let time = document.querySelector(".time");
 let text = "";
 
 // Students Data
@@ -3184,10 +3185,8 @@ btnExam.addEventListener("click", showExam);
 let num = 0;
 
 function showExam() {
-  if (text == "الصف الرابع") {
-    if (num >= 2) {
-      alert("عليك الإنتظار ساعة");
-    } else {
+  if (num <= 5) {
+    if (text == "الصف الرابع") {
       if (userFour[number.value]) {
         arabic.innerHTML = userFour[number.value].subject.Arabic;
         studies.innerHTML = userFour[number.value].subject.Studies;
@@ -3217,64 +3216,78 @@ function showExam() {
         num++;
         alert("الكود غير صحيح");
       }
-    }
-  } else if (text == "الصف الخامس") {
-    if (userFive[number.value]) {
-      arabic.innerHTML = userFive[number.value].subject.Arabic;
-      studies.innerHTML = userFive[number.value].subject.Studies;
-      math.innerHTML = userFive[number.value].subject.Math;
-      english.innerHTML = userFive[number.value].subject.English;
-      science.innerHTML = userFive[number.value].subject.Science;
-      religion.innerHTML = userFive[number.value].subject.Religion;
-      compter.innerHTML = userFive[number.value].subject.Computer;
-      skills.innerHTML = userFive[number.value].subject.Skills;
-      userName.innerHTML = userFive[number.value].name;
-      computerBox.style.display = "flex";
-      skillsBox.style.display = "flex";
-      total.innerHTML = `${
-        Number(arabic.innerHTML) +
-        Number(studies.innerHTML) +
-        Number(math.innerHTML) +
-        Number(english.innerHTML) +
-        Number(science.innerHTML) +
-        Number(religion.innerHTML) +
-        Number(skills.innerHTML) +
-        Number(compter.innerHTML)
-      }`;
-      tops.innerHTML = userFive[number.value].rank;
-    } else if (number.value == "") {
-      alert("ادخل الكود");
+    } else if (text == "الصف الخامس") {
+      if (userFive[number.value]) {
+        arabic.innerHTML = userFive[number.value].subject.Arabic;
+        studies.innerHTML = userFive[number.value].subject.Studies;
+        math.innerHTML = userFive[number.value].subject.Math;
+        english.innerHTML = userFive[number.value].subject.English;
+        science.innerHTML = userFive[number.value].subject.Science;
+        religion.innerHTML = userFive[number.value].subject.Religion;
+        compter.innerHTML = userFive[number.value].subject.Computer;
+        skills.innerHTML = userFive[number.value].subject.Skills;
+        userName.innerHTML = userFive[number.value].name;
+        computerBox.style.display = "flex";
+        skillsBox.style.display = "flex";
+        total.innerHTML = `${
+          Number(arabic.innerHTML) +
+          Number(studies.innerHTML) +
+          Number(math.innerHTML) +
+          Number(english.innerHTML) +
+          Number(science.innerHTML) +
+          Number(religion.innerHTML) +
+          Number(skills.innerHTML) +
+          Number(compter.innerHTML)
+        }`;
+        tops.innerHTML = userFive[number.value].rank;
+      } else if (number.value == "") {
+        alert("ادخل الكود");
+      } else {
+        num++;
+        alert("الكود غير صحيح");
+      }
+    } else if (text == "الصف السادس") {
+      if (userSix[number.value]) {
+        arabic.innerHTML = userSix[number.value].subject.Arabic;
+        studies.innerHTML = userSix[number.value].subject.Studies;
+        math.innerHTML = userSix[number.value].subject.Math;
+        english.innerHTML = userSix[number.value].subject.English;
+        science.innerHTML = userSix[number.value].subject.Science;
+        religion.innerHTML = userSix[number.value].subject.Religion;
+        userName.innerHTML = userSix[number.value].name;
+        computerBox.style.display = "none";
+        skillsBox.style.display = "none";
+        total.innerHTML = `${
+          Number(arabic.innerHTML) +
+          Number(studies.innerHTML) +
+          Number(math.innerHTML) +
+          Number(english.innerHTML) +
+          Number(science.innerHTML)
+        }`;
+        tops.innerHTML = userSix[number.value].rank;
+      } else if (number.value == "") {
+        alert("ادخل الكود");
+      } else {
+        num++;
+        alert("الكود غير صحيح");
+      }
     } else {
-      num++;
-      alert("الكود غير صحيح");
-    }
-  } else if (text == "الصف السادس") {
-    if (userSix[number.value]) {
-      arabic.innerHTML = userSix[number.value].subject.Arabic;
-      studies.innerHTML = userSix[number.value].subject.Studies;
-      math.innerHTML = userSix[number.value].subject.Math;
-      english.innerHTML = userSix[number.value].subject.English;
-      science.innerHTML = userSix[number.value].subject.Science;
-      religion.innerHTML = userSix[number.value].subject.Religion;
-      userName.innerHTML = userSix[number.value].name;
-      computerBox.style.display = "none";
-      skillsBox.style.display = "none";
-      total.innerHTML = `${
-        Number(arabic.innerHTML) +
-        Number(studies.innerHTML) +
-        Number(math.innerHTML) +
-        Number(english.innerHTML) +
-        Number(science.innerHTML)
-      }`;
-      tops.innerHTML = userSix[number.value].rank;
-    } else if (number.value == "") {
-      alert("ادخل الكود");
-    } else {
-      num++;
-      alert("الكود غير صحيح");
+      alert("اختر الصف");
     }
   } else {
-    alert("اختر الصف");
+    alert("انتظر 2 دقائق");
+    setTimeout(() => {
+      num = 0;
+    }, 120000);
+    function countdown() {
+      time.innerHTML -= 1;
+      if (time.innerHTML === "0") {
+        clearInterval(counter);
+        time.innerHTML = 120;
+      }
+    }
+
+    let counter = setInterval(countdown, 1000);
   }
 }
 
