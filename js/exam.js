@@ -3185,7 +3185,7 @@ btnExam.addEventListener("click", showExam);
 let num = 0;
 
 function showExam() {
-  if (num <= 5) {
+  if (num <= 4) {
     if (text == "الصف الرابع") {
       if (userFour[number.value]) {
         arabic.innerHTML = userFour[number.value].subject.Arabic;
@@ -3276,8 +3276,10 @@ function showExam() {
     }
   } else {
     alert("انتظر 2 دقائق");
+    btnExam.style.display = "none";
     setTimeout(() => {
       num = 0;
+      btnExam.style.display = "block";
     }, 120000);
     function countdown() {
       time.innerHTML -= 1;
