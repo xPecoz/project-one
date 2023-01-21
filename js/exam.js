@@ -1268,19 +1268,19 @@ let userFour = {
   //     Skills: 0,
   //   },
   // },
-  // 43469: {
-  //   name: "ياسمين محمد محمد زاكي ابراهيم",
-  //   subject: {
-  //     Arabic: 86,
-  //     Math: 64,
-  //     Science: 88,
-  //     Studies: 87,
-  //     English: 66,
-  //     Religion: 70,
-  //     Computer: 89,
-  //     Skills: 90,
-  //   },
-  // },
+  43469: {
+    name: "ياسمين محمد محمد زاكي ابراهيم",
+    subject: {
+      Arabic: 86,
+      Math: 64,
+      Science: 88,
+      Studies: 87,
+      English: 66,
+      Religion: 70,
+      Computer: 89,
+      Skills: 90,
+    },
+  },
 };
 let userFive = {
   50000: {
@@ -3181,35 +3181,42 @@ option.forEach((ele) => {
 
 btnExam.addEventListener("click", showExam);
 
+let num = 0;
+
 function showExam() {
   if (text == "الصف الرابع") {
-    if (userFour[number.value]) {
-      arabic.innerHTML = userFour[number.value].subject.Arabic;
-      studies.innerHTML = userFour[number.value].subject.Studies;
-      math.innerHTML = userFour[number.value].subject.Math;
-      english.innerHTML = userFour[number.value].subject.English;
-      science.innerHTML = userFour[number.value].subject.Science;
-      religion.innerHTML = userFour[number.value].subject.Religion;
-      compter.innerHTML = userFour[number.value].subject.Computer;
-      skills.innerHTML = userFour[number.value].subject.Skills;
-      computerBox.style.display = "flex";
-      skillsBox.style.display = "flex";
-      total.innerHTML = `${
-        Number(arabic.innerHTML) +
-        Number(studies.innerHTML) +
-        Number(math.innerHTML) +
-        Number(english.innerHTML) +
-        Number(science.innerHTML) +
-        Number(religion.innerHTML) +
-        Number(skills.innerHTML) +
-        Number(compter.innerHTML)
-      }`;
-      userName.innerHTML = userFour[number.value].name;
-      tops.innerHTML = userFour[number.value].rank;
-    } else if (number.value == "") {
-      alert("ادخل الكود");
+    if (num >= 2) {
+      alert("عليك الإنتظار ساعة");
     } else {
-      alert("الكود غير صحيح");
+      if (userFour[number.value]) {
+        arabic.innerHTML = userFour[number.value].subject.Arabic;
+        studies.innerHTML = userFour[number.value].subject.Studies;
+        math.innerHTML = userFour[number.value].subject.Math;
+        english.innerHTML = userFour[number.value].subject.English;
+        science.innerHTML = userFour[number.value].subject.Science;
+        religion.innerHTML = userFour[number.value].subject.Religion;
+        compter.innerHTML = userFour[number.value].subject.Computer;
+        skills.innerHTML = userFour[number.value].subject.Skills;
+        computerBox.style.display = "flex";
+        skillsBox.style.display = "flex";
+        total.innerHTML = `${
+          Number(arabic.innerHTML) +
+          Number(studies.innerHTML) +
+          Number(math.innerHTML) +
+          Number(english.innerHTML) +
+          Number(science.innerHTML) +
+          Number(religion.innerHTML) +
+          Number(skills.innerHTML) +
+          Number(compter.innerHTML)
+        }`;
+        userName.innerHTML = userFour[number.value].name;
+        tops.innerHTML = userFour[number.value].rank;
+      } else if (number.value == "") {
+        alert("ادخل الكود");
+      } else {
+        num++;
+        alert("الكود غير صحيح");
+      }
     }
   } else if (text == "الصف الخامس") {
     if (userFive[number.value]) {
@@ -3238,6 +3245,7 @@ function showExam() {
     } else if (number.value == "") {
       alert("ادخل الكود");
     } else {
+      num++;
       alert("الكود غير صحيح");
     }
   } else if (text == "الصف السادس") {
@@ -3262,6 +3270,7 @@ function showExam() {
     } else if (number.value == "") {
       alert("ادخل الكود");
     } else {
+      num++;
       alert("الكود غير صحيح");
     }
   } else {
@@ -3269,9 +3278,9 @@ function showExam() {
   }
 }
 
-window.addEventListener("contextmenu", (e) => {
-  e.preventDefault();
-});
+// window.addEventListener("contextmenu", (e) => {
+//   e.preventDefault();
+// });
 
 document.onkeydown = (e) => {
   let num = 0;
