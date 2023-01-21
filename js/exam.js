@@ -2154,19 +2154,19 @@ let userFive = {
       Skills: 93,
     },
   },
-  // 52828: {
-  //   name: "ميار علي علي عبد الغني",
-  //   subject: {
-  //     Arabic: 93,
-  //     Math: 83,
-  //     Science: 97,
-  //     Studies: 88,
-  //     English: 94,
-  //     Religion: 86,
-  //     Computer: 69,
-  //     Skills: 93,
-  //   },
-  // },
+  52828: {
+    name: "ميار علي علي عبد الغني",
+    subject: {
+      Arabic: 93,
+      Math: 83,
+      Science: 97,
+      Studies: 88,
+      English: 94,
+      Religion: 86,
+      Computer: 69,
+      Skills: 93,
+    },
+  },
   // 52851: {
   //   name: "ميار محمود عطيه عبد العزيز",
   //   subject: {
