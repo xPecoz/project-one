@@ -2167,19 +2167,19 @@ let userFive = {
       Skills: 93,
     },
   },
-  // 52851: {
-  //   name: "ميار محمود عطيه عبد العزيز",
-  //   subject: {
-  //     Arabic: 97,
-  //     Math: 92,
-  //     Science: 100,
-  //     Studies: 92,
-  //     English: 100,
-  //     Religion: 91,
-  //     Computer: 83,
-  //     Skills: 94,
-  //   },
-  // },
+  52851: {
+    name: "ميار محمود عطيه عبد العزيز",
+    subject: {
+      Arabic: 97,
+      Math: 92,
+      Science: 100,
+      Studies: 92,
+      English: 100,
+      Religion: 91,
+      Computer: 83,
+      Skills: 94,
+    },
+  },
   // 52874: {
   //   name: "ميرفت ابو الفتوح محمد ابو الفتوح",
   //   subject: {
@@ -2455,19 +2455,19 @@ let userSix = {
   //     Skills: 0,
   //   },
   // },
-  // 60731: {
-  //   name: "فتحي احمد ابو الفتوح عبد الفتاح",
-  //   subject: {
-  //     Arabic: 60,
-  //     Math: 44,
-  //     Science: 86,
-  //     Studies: 81,
-  //     English: 55,
-  //     Religion: 96,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  60731: {
+    name: "فتحي احمد ابو الفتوح عبد الفتاح",
+    subject: {
+      Arabic: 60,
+      Math: 44,
+      Science: 86,
+      Studies: 81,
+      English: 55,
+      Religion: 96,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   60774: {
     name: "محمد اشرف رمضان سالم",
     subject: {
