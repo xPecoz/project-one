@@ -2063,19 +2063,19 @@ let userFive = {
       Skills: 99,
     },
   },
-  // 52667: {
-  //   name: "مريم ابراهيم ابراهيم ادم",
-  //   subject: {
-  //     Arabic: 96,
-  //     Math: 86,
-  //     Science: 97,
-  //     Studies: 98,
-  //     English: 91,
-  //     Religion: 92,
-  //     Computer: 90,
-  //     Skills: 97,
-  //   },
-  // },
+  52667: {
+    name: "مريم ابراهيم ابراهيم ادم",
+    subject: {
+      Arabic: 96,
+      Math: 86,
+      Science: 97,
+      Studies: 98,
+      English: 91,
+      Religion: 92,
+      Computer: 90,
+      Skills: 97,
+    },
+  },
   52690: {
     name: "مريم احمد محمد عبيده المتولي",
     subject: {
@@ -2115,19 +2115,19 @@ let userFive = {
       Skills: 92,
     },
   },
-  // 52759: {
-  //   name: "منه ابراهيم ابراهيم آدم",
-  //   subject: {
-  //     Arabic: 96,
-  //     Math: 95,
-  //     Science: 99,
-  //     Studies: 97,
-  //     English: 97,
-  //     Religion: 94,
-  //     Computer: 85,
-  //     Skills: 96,
-  //   },
-  // },
+  52759: {
+    name: "منه ابراهيم ابراهيم آدم",
+    subject: {
+      Arabic: 96,
+      Math: 95,
+      Science: 99,
+      Studies: 97,
+      English: 97,
+      Religion: 94,
+      Computer: 85,
+      Skills: 96,
+    },
+  },
   // 52782: {
   //   name: "منه جوده سعيد الورداني الحداد",
   //   subject: {
