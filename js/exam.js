@@ -3184,6 +3184,28 @@ btnExam.addEventListener("click", showExam);
 
 let num = 0;
 
+if (localStorage.getItem("num") >= 5) {
+  num = localStorage.getItem("num");
+  time.innerHTML = localStorage.getItem("time");
+  btnExam.style.display = "none";
+  number.style.display = "none";
+  setTimeout(() => {
+    num = 0;
+    localStorage.setItem("num", num);
+    btnExam.style.display = "block";
+    number.style.display = "block";
+  }, time.innerHTML * 1000);
+  function countdown() {
+    time.innerHTML -= 1;
+    localStorage.setItem("time", time.innerHTML);
+    if (time.innerHTML === "0") {
+      clearInterval(counter);
+      time.innerHTML = 120;
+    }
+  }
+
+  let counter = setInterval(countdown, 1000);
+}
 function showExam() {
   if (num <= 4) {
     if (text == "الصف الرابع") {
@@ -3214,6 +3236,7 @@ function showExam() {
         alert("ادخل الكود");
       } else {
         num++;
+        localStorage.setItem("num", num);
         alert("الكود غير صحيح");
       }
     } else if (text == "الصف الخامس") {
@@ -3244,6 +3267,7 @@ function showExam() {
         alert("ادخل الكود");
       } else {
         num++;
+        localStorage.setItem("num", num);
         alert("الكود غير صحيح");
       }
     } else if (text == "الصف السادس") {
@@ -3269,20 +3293,24 @@ function showExam() {
         alert("ادخل الكود");
       } else {
         num++;
+        localStorage.setItem("num", num);
         alert("الكود غير صحيح");
       }
     } else {
       alert("اختر الصف");
     }
   } else {
-    alert("انتظر 2 دقائق");
     btnExam.style.display = "none";
+    number.style.display = "none";
     setTimeout(() => {
       num = 0;
+      localStorage.setItem("num", num);
       btnExam.style.display = "block";
+      number.style.display = "block";
     }, 120000);
     function countdown() {
       time.innerHTML -= 1;
+      localStorage.setItem("time", time.innerHTML);
       if (time.innerHTML === "0") {
         clearInterval(counter);
         time.innerHTML = 120;
@@ -3290,6 +3318,7 @@ function showExam() {
     }
 
     let counter = setInterval(countdown, 1000);
+    alert("انتظر 2 دقائق");
   }
 }
 
