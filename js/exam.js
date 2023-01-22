@@ -3002,19 +3002,19 @@ let userSix = {
   //     Skills: 0,
   //   },
   // },
-  // 61957: {
-  //   name: "مريم نصر احمد ابراهيم",
-  //   subject: {
-  //     Arabic: 94,
-  //     Math: 92,
-  //     Science: 100,
-  //     Studies: 100,
-  //     English: 100,
-  //     Religion: 95,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  61957: {
+    name: "مريم نصر احمد ابراهيم",
+    subject: {
+      Arabic: 94,
+      Math: 92,
+      Science: 100,
+      Studies: 100,
+      English: 100,
+      Religion: 95,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   61975: {
     name: "ملك ابراهيم عوض هلال العفيفي",
     subject: {
