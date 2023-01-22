@@ -1986,19 +1986,19 @@ let userFive = {
   //     Skills: 98,
   //   },
   // },
-  // 52474: {
-  //   name: "ريتاج محمود المتولي المتولي",
-  //   subject: {
-  //     Arabic: 50,
-  //     Math: 40,
-  //     Science: 67,
-  //     Studies: 73,
-  //     English: 58,
-  //     Religion: 56,
-  //     Computer: 77,
-  //     Skills: 84,
-  //   },
-  // },
+  52474: {
+    name: "ريتاج محمود المتولي المتولي",
+    subject: {
+      Arabic: 50,
+      Math: 40,
+      Science: 67,
+      Studies: 73,
+      English: 58,
+      Religion: 56,
+      Computer: 77,
+      Skills: 84,
+    },
+  },
   52508: {
     name: "ريم نجاح شوقي الورداني",
     subject: {
