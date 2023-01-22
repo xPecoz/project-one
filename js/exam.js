@@ -788,19 +788,19 @@ let userFour = {
   //     Skills: 0,
   //   },
   // },
-  // 41842: {
-  //   name: "ريتاج محمد الرفاعي السيد الرفاعي",
-  //   subject: {
-  //     Arabic: 85,
-  //     Math: 51,
-  //     Science: 84,
-  //     Studies: 94,
-  //     English: 54,
-  //     Religion: 64,
-  //     Computer: 73,
-  //     Skills: 93,
-  //   },
-  // },
+  41842: {
+    name: "ريتاج محمد الرفاعي السيد الرفاعي",
+    subject: {
+      Arabic: 85,
+      Math: 51,
+      Science: 84,
+      Studies: 94,
+      English: 54,
+      Religion: 64,
+      Computer: 73,
+      Skills: 93,
+    },
+  },
   // 41865: {
   //   name: "ريماس طارق شورى موسى",
   //   subject: {
