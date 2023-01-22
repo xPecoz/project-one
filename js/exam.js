@@ -2090,19 +2090,19 @@ let userFive = {
       Skills: 95,
     },
   },
-  // 52713: {
-  //   name: "ملك فيصل السعيد نجاح",
-  //   subject: {
-  //     Arabic: 78,
-  //     Math: 77,
-  //     Science: 86,
-  //     Studies: 82,
-  //     English: 79,
-  //     Religion: 78,
-  //     Computer: 86,
-  //     Skills: 93,
-  //   },
-  // },
+  52713: {
+    name: "ملك فيصل السعيد نجاح",
+    subject: {
+      Arabic: 78,
+      Math: 77,
+      Science: 86,
+      Studies: 82,
+      English: 79,
+      Religion: 78,
+      Computer: 86,
+      Skills: 93,
+    },
+  },
   52736: {
     name: "ملك يوسف عبد العليم يوسف",
     subject: {
