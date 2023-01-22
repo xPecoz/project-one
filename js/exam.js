@@ -476,19 +476,19 @@ let userFour = {
   //     Skills: 0,
   //   },
   // },
-  // 41191: {
-  //   name: "يوسف حسين ابوالسعود صابر",
-  //   subject: {
-  //     Arabic: 89,
-  //     Math: 90,
-  //     Science: 80,
-  //     Studies: 86,
-  //     English: 72,
-  //     Religion: 68,
-  //     Computer: 80,
-  //     Skills: 92,
-  //   },
-  // },
+  41191: {
+    name: "يوسف حسين ابوالسعود صابر",
+    subject: {
+      Arabic: 89,
+      Math: 90,
+      Science: 80,
+      Studies: 86,
+      English: 72,
+      Religion: 68,
+      Computer: 80,
+      Skills: 92,
+    },
+  },
   // 41225: {
   //   name: "يوسف عبدالقادر عزت السيد",
   //   subject: {
