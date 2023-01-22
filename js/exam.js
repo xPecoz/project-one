@@ -918,19 +918,19 @@ let userFour = {
       Skills: 97,
     },
   },
-  // 42227: {
-  //   name: "عائشه عمرو عبداللطيف السيد",
-  //   subject: {
-  //     Arabic: 86,
-  //     Math: 68,
-  //     Science: 93,
-  //     Studies: 79,
-  //     English: 64,
-  //     Religion: 69,
-  //     Computer: 81,
-  //     Skills: 93,
-  //   },
-  // },
+  42227: {
+    name: "عائشه عمرو عبداللطيف السيد",
+    subject: {
+      Arabic: 86,
+      Math: 68,
+      Science: 93,
+      Studies: 79,
+      English: 64,
+      Religion: 69,
+      Computer: 81,
+      Skills: 93,
+    },
+  },
   42281: {
     name: "لوجي وائل الزكي منصور",
     subject: {
@@ -1323,19 +1323,19 @@ let userFive = {
       Skills: 98,
     },
   },
-  // 50168: {
-  //   name: "المتولي السعيد المتولي ابراهيم",
-  //   subject: {
-  //     Arabic: 86,
-  //     Math: 83,
-  //     Science: 95,
-  //     Studies: 94,
-  //     English: 82,
-  //     Religion: 96,
-  //     Computer: 95,
-  //     Skills: 98,
-  //   },
-  // },
+  50168: {
+    name: "المتولي السعيد المتولي ابراهيم",
+    subject: {
+      Arabic: 86,
+      Math: 83,
+      Science: 95,
+      Studies: 94,
+      English: 82,
+      Religion: 96,
+      Computer: 95,
+      Skills: 98,
+    },
+  },
   // 50224: {
   //   name: "اميرمنصور عبد الهادي محمد",
   //   subject: {
