@@ -1337,7 +1337,7 @@ let userFive = {
     },
   },
   // 50224: {
-  //   name: "اميرمنصور عبد الهادي محمد",
+  //   name: "امير منصور عبد الهادي محمد",
   //   subject: {
   //     Arabic: 98,
   //     Math: 84,
@@ -1934,19 +1934,19 @@ let userFive = {
       Skills: 86,
     },
   },
-  // 52338: {
-  //   name: "رودينه فتحي السعيد السعيد",
-  //   subject: {
-  //     Arabic: 76,
-  //     Math: 56,
-  //     Science: 89,
-  //     Studies: 88,
-  //     English: 83,
-  //     Religion: 87,
-  //     Computer: 82,
-  //     Skills: 84,
-  //   },
-  // },
+  52338: {
+    name: "رودينه فتحي السعيد السعيد",
+    subject: {
+      Arabic: 76,
+      Math: 56,
+      Science: 89,
+      Studies: 88,
+      English: 83,
+      Religion: 87,
+      Computer: 82,
+      Skills: 84,
+    },
+  },
   // 52372: {
   //   name: "روضه محب السيد معوض",
   //   subject: {
