@@ -1336,19 +1336,19 @@ let userFive = {
       Skills: 98,
     },
   },
-  // 50224: {
-  //   name: "امير منصور عبد الهادي محمد",
-  //   subject: {
-  //     Arabic: 98,
-  //     Math: 84,
-  //     Science: 98,
-  //     Studies: 92,
-  //     English: 99,
-  //     Religion: 99,
-  //     Computer: 98,
-  //     Skills: 98,
-  //   },
-  // },
+  50224: {
+    name: "امير منصور عبد الهادي محمد",
+    subject: {
+      Arabic: 98,
+      Math: 84,
+      Science: 98,
+      Studies: 92,
+      English: 99,
+      Religion: 99,
+      Computer: 98,
+      Skills: 98,
+    },
+  },
   // 50280: {
   //   name: "اياد احمد عاطف البيومي",
   //   subject: {
