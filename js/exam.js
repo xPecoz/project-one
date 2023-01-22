@@ -1061,19 +1061,19 @@ let userFour = {
   //     Skills: 90,
   //   },
   // },
-  // 42821: {
-  //   name: "مريم هاشم الزكي الشراكي",
-  //   subject: {
-  //     Arabic: 91,
-  //     Math: 67,
-  //     Science: 93,
-  //     Studies: 95,
-  //     English: 56,
-  //     Religion: 78,
-  //     Computer: 79,
-  //     Skills: 93,
-  //   },
-  // },
+  42821: {
+    name: "مريم هاشم الزكي الشراكي",
+    subject: {
+      Arabic: 91,
+      Math: 67,
+      Science: 93,
+      Studies: 95,
+      English: 56,
+      Religion: 78,
+      Computer: 79,
+      Skills: 93,
+    },
+  },
   // 42875: {
   //   name: "ملك ابراهيم الذكي عبد الكريم",
   //   subject: {
