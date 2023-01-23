@@ -840,19 +840,19 @@ let userFour = {
       Skills: 91,
     },
   },
-  // 41934: {
-  //   name: "ساميه محمد السيد يوسف عبدالعزيز",
-  //   subject: {
-  //     Arabic: 84,
-  //     Math: 53,
-  //     Science: 78,
-  //     Studies: 70,
-  //     English: 52,
-  //     Religion: 66,
-  //     Computer: 70,
-  //     Skills: 82,
-  //   },
-  // },
+  41934: {
+    name: "ساميه محمد السيد يوسف عبدالعزيز",
+    subject: {
+      Arabic: 84,
+      Math: 53,
+      Science: 78,
+      Studies: 70,
+      English: 52,
+      Religion: 66,
+      Computer: 70,
+      Skills: 82,
+    },
+  },
   // 41957: {
   //   name: "سجي ضياء الدين ابراهيم المتولي",
   //   subject: {
@@ -1726,19 +1726,19 @@ let userFive = {
       Skills: 87,
     },
   },
-  // 51739: {
-  //   name: "يوسف محمد ابو خليل احمد",
-  //   subject: {
-  //     Arabic: 93,
-  //     Math: 82,
-  //     Science: 97,
-  //     Studies: 93,
-  //     English: 87,
-  //     Religion: 78,
-  //     Computer: 81,
-  //     Skills: 89,
-  //   },
-  // },
+  51739: {
+    name: "يوسف محمد ابو خليل احمد",
+    subject: {
+      Arabic: 93,
+      Math: 82,
+      Science: 97,
+      Studies: 93,
+      English: 87,
+      Religion: 78,
+      Computer: 81,
+      Skills: 89,
+    },
+  },
   51784: {
     name: "يوسف محمود احمد عبد التواب",
     subject: {
@@ -2207,19 +2207,19 @@ let userFive = {
   //     Skills: 94,
   //   },
   // },
-  // 52920: {
-  //   name: "ولاء محمد السيد يوسف",
-  //   subject: {
-  //     Arabic: 83,
-  //     Math: 79,
-  //     Science: 91,
-  //     Studies: 76,
-  //     English: 82,
-  //     Religion: 86,
-  //     Computer: 75,
-  //     Skills: 95,
-  //   },
-  // },
+  52920: {
+    name: "ولاء محمد السيد يوسف",
+    subject: {
+      Arabic: 83,
+      Math: 79,
+      Science: 91,
+      Studies: 76,
+      English: 82,
+      Religion: 86,
+      Computer: 75,
+      Skills: 95,
+    },
+  },
   52943: {
     name: "ياسمين عمار عمر عبد المطلب",
     subject: {
