@@ -1687,19 +1687,19 @@ let userFive = {
       Skills: 82,
     },
   },
-  // 51604: {
-  //   name: "يوسف سالم رجب سالم الديب",
-  //   subject: {
-  //     Arabic: 72,
-  //     Math: 65,
-  //     Science: 93,
-  //     Studies: 90,
-  //     English: 76,
-  //     Religion: 86,
-  //     Computer: 77,
-  //     Skills: 82,
-  //   },
-  // },
+  51604: {
+    name: "يوسف سالم رجب سالم الديب",
+    subject: {
+      Arabic: 72,
+      Math: 65,
+      Science: 93,
+      Studies: 90,
+      English: 76,
+      Religion: 86,
+      Computer: 77,
+      Skills: 82,
+    },
+  },
   // 51649: {
   //   name: "يوسف صلاح ابراهيم العرابي",
   //   subject: {
