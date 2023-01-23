@@ -2547,19 +2547,19 @@ let userSix = {
   //     Skills: 0,
   //   },
   // },
-  // 60987: {
-  //   name: "محمد عصام عبد الرازق محمد",
-  //   subject: {
-  //     Arabic: 71,
-  //     Math: 48,
-  //     Science: 84,
-  //     Studies: 60,
-  //     English: 58,
-  //     Religion: 70,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  60987: {
+    name: "محمد عصام عبد الرازق محمد",
+    subject: {
+      Arabic: 71,
+      Math: 48,
+      Science: 84,
+      Studies: 60,
+      English: 58,
+      Religion: 70,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   // 61021: {
   //   name: "محمد علي محمد علي",
   //   subject: {
