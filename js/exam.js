@@ -697,19 +697,19 @@ let userFour = {
   //     Skills: 90,
   //   },
   // },
-  // 41681: {
-  //   name: "حبيبه محمود احمد صبحي جمعه واصل",
-  //   subject: {
-  //     Arabic: 89,
-  //     Math: 78,
-  //     Science: 93,
-  //     Studies: 96,
-  //     English: 77,
-  //     Religion: 84,
-  //     Computer: 87,
-  //     Skills: 90,
-  //   },
-  // },
+  41681: {
+    name: "حبيبه محمود احمد صبحي جمعه واصل",
+    subject: {
+      Arabic: 89,
+      Math: 78,
+      Science: 93,
+      Studies: 96,
+      English: 77,
+      Religion: 84,
+      Computer: 87,
+      Skills: 90,
+    },
+  },
   // 41704: {
   //   name: "حنين ابراهيم السيد سمبو",
   //   subject: {
@@ -1191,19 +1191,19 @@ let userFour = {
   //     Skills: 93,
   //   },
   // },
-  // 43253: {
-  //   name: "ندى شريف الجميل عبدالخالق",
-  //   subject: {
-  //     Arabic: 93,
-  //     Math: 76,
-  //     Science: 93,
-  //     Studies: 95,
-  //     English: 67,
-  //     Religion: 76,
-  //     Computer: 78,
-  //     Skills: 96,
-  //   },
-  // },
+  43253: {
+    name: "ندى شريف الجميل عبدالخالق",
+    subject: {
+      Arabic: 93,
+      Math: 76,
+      Science: 93,
+      Studies: 95,
+      English: 67,
+      Religion: 76,
+      Computer: 78,
+      Skills: 96,
+    },
+  },
   // 43289: {
   //   name: "ندى عبدالرازق عوض عبدالرازق",
   //   subject: {
