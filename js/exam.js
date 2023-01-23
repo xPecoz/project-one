@@ -2181,19 +2181,19 @@ let userFive = {
       Skills: 94,
     },
   },
-  // 52874: {
-  //   name: "ميرفت ابو الفتوح محمد ابو الفتوح",
-  //   subject: {
-  //     Arabic: 87,
-  //     Math: 61,
-  //     Science: 85,
-  //     Studies: 83,
-  //     English: 56,
-  //     Religion: 84,
-  //     Computer: 82,
-  //     Skills: 92,
-  //   },
-  // },
+  52874: {
+    name: "ميرفت ابو الفتوح محمد ابو الفتوح",
+    subject: {
+      Arabic: 87,
+      Math: 61,
+      Science: 85,
+      Studies: 83,
+      English: 56,
+      Religion: 84,
+      Computer: 82,
+      Skills: 92,
+    },
+  },
   // 52897: {
   //   name: "نورا حازم ابراهيم ابراهيم",
   //   subject: {
