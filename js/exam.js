@@ -2012,19 +2012,19 @@ let userFive = {
       Skills: 98,
     },
   },
-  // 52542: {
-  //   name: "سما عماد رجب محمد",
-  //   subject: {
-  //     Arabic: 93,
-  //     Math: 82,
-  //     Science: 90,
-  //     Studies: 97,
-  //     English: 96,
-  //     Religion: 98,
-  //     Computer: 89,
-  //     Skills: 96,
-  //   },
-  // },
+  52542: {
+    name: "سما عماد رجب محمد",
+    subject: {
+      Arabic: 93,
+      Math: 82,
+      Science: 90,
+      Studies: 97,
+      English: 96,
+      Religion: 98,
+      Computer: 89,
+      Skills: 96,
+    },
+  },
   // 52576: {
   //   name: "علياء محمود عبد السلام محمد",
   //   subject: {
