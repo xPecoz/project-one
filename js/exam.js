@@ -1178,19 +1178,19 @@ let userFour = {
       Skills: 88,
     },
   },
-  // 43217: {
-  //   name: "ميار محمد فرج عبدالرازق محمد",
-  //   subject: {
-  //     Arabic: 91,
-  //     Math: 80,
-  //     Science: 91,
-  //     Studies: 93,
-  //     English: 76,
-  //     Religion: 85,
-  //     Computer: 89,
-  //     Skills: 93,
-  //   },
-  // },
+  43217: {
+    name: "ميار محمد فرج عبدالرازق محمد",
+    subject: {
+      Arabic: 91,
+      Math: 80,
+      Science: 91,
+      Studies: 93,
+      English: 76,
+      Religion: 85,
+      Computer: 89,
+      Skills: 93,
+    },
+  },
   43253: {
     name: "ندى شريف الجميل عبدالخالق",
     subject: {
