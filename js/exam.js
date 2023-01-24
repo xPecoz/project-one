@@ -3067,19 +3067,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 62047: {
-  //   name: "ملك محمد يحيى محمود",
-  //   subject: {
-  //     Arabic: 37,
-  //     Math: 64,
-  //     Science: 70,
-  //     Studies: 77.5,
-  //     English: 45,
-  //     Religion: 64,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  62047: {
+    name: "ملك محمد يحيى محمود",
+    subject: {
+      Arabic: 37,
+      Math: 64,
+      Science: 70,
+      Studies: 77.5,
+      English: 45,
+      Religion: 64,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   62065: {
     name: "مني السيد المتولي ابراهيم",
     subject: {
