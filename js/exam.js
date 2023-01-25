@@ -1947,19 +1947,19 @@ let userFive = {
       Skills: 84,
     },
   },
-  // 52372: {
-  //   name: "روضه محب السيد معوض",
-  //   subject: {
-  //     Arabic: 85,
-  //     Math: 91,
-  //     Science: 95,
-  //     Studies: 96,
-  //     English: 93,
-  //     Religion: 92,
-  //     Computer: 96,
-  //     Skills: 98,
-  //   },
-  // },
+  52372: {
+    name: "روضه محب السيد معوض",
+    subject: {
+      Arabic: 85,
+      Math: 91,
+      Science: 95,
+      Studies: 96,
+      English: 93,
+      Religion: 92,
+      Computer: 96,
+      Skills: 98,
+    },
+  },
   52406: {
     name: "رؤي مجدي منصور توفيق",
     subject: {
