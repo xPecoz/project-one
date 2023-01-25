@@ -1217,19 +1217,19 @@ let userFour = {
   //     Skills: 0,
   //   },
   // },
-  // 43325: {
-  //   name: "ندى محمد خفاجي احمد البسيوني",
-  //   subject: {
-  //     Arabic: 85,
-  //     Math: 65,
-  //     Science: 75,
-  //     Studies: 76,
-  //     English: 50,
-  //     Religion: 70,
-  //     Computer: 82,
-  //     Skills: 82,
-  //   },
-  // },
+  43325: {
+    name: "ندى محمد خفاجي احمد البسيوني",
+    subject: {
+      Arabic: 85,
+      Math: 65,
+      Science: 75,
+      Studies: 76,
+      English: 50,
+      Religion: 70,
+      Computer: 82,
+      Skills: 82,
+    },
+  },
   // 43361: {
   //   name: "هبه عبدالله سعد عبوده عبداللطيف",
   //   subject: {
