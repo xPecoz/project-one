@@ -2716,19 +2716,19 @@ let userSix = {
       Skills: 0,
     },
   },
-  // 61429: {
-  //   name: "اسراء جابر السيد المغاوري",
-  //   subject: {
-  //     Arabic: 83,
-  //     Math: 52,
-  //     Science: 89,
-  //     Studies: 80,
-  //     English: 87,
-  //     Religion: 97,
-  //     Computer: 0,
-  //     Skills: 0,
-  //   },
-  // },
+  61429: {
+    name: "اسراء جابر السيد المغاوري",
+    subject: {
+      Arabic: 83,
+      Math: 52,
+      Science: 89,
+      Studies: 80,
+      English: 87,
+      Religion: 97,
+      Computer: 0,
+      Skills: 0,
+    },
+  },
   61463: {
     name: "اسراء محمد عادل محمد",
     subject: {
