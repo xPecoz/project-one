@@ -554,19 +554,19 @@ let userFour = {
   //     Skills: 0,
   //   },
   // },
-  // 41395: {
-  //   name: "اسينات وائل عزيز المحمدي",
-  //   subject: {
-  //     Arabic: 67,
-  //     Math: 63,
-  //     Science: 70,
-  //     Studies: 71,
-  //     English: 54,
-  //     Religion: 58,
-  //     Computer: 82,
-  //     Skills: 87,
-  //   },
-  // },
+  41395: {
+    name: "اسينات وائل عزيز المحمدي",
+    subject: {
+      Arabic: 67,
+      Math: 63,
+      Science: 70,
+      Studies: 71,
+      English: 54,
+      Religion: 58,
+      Computer: 82,
+      Skills: 87,
+    },
+  },
   41429: {
     name: "الاء حسن جابر عرفات الشربيني",
     subject: {
