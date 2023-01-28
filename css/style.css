@@ -906,6 +906,7 @@ li {
   width: 550px;
   height: 362px;
   position: fixed;
+  z-index: 100;
   left: 50%;
   transform: translate(-43%, 66%);
   background-color: #fff;
@@ -973,7 +974,6 @@ li {
 .modal-body h2 {
   font-weight: 400;
   color: #222f3e;
-  letter-spacing: 0.75rem;
   margin: 20px 0 10px 0;
   background-color: white;
 }
@@ -1431,4 +1431,10 @@ li {
   left: -470px;
   transform: rotate(83deg);
   top: -666px;
+}
+.classes {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: right;
+  color: var(--black-color);
 }

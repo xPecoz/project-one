@@ -60,7 +60,7 @@ function SendMail() {
 
   if (params.from_name && params.email_id && params.message) {
     emailjs.send("service_vpguixj", "template_j210nld", params);
-    msgSend.classList.toggle("active-5");
+    msgSend.classList.add("active-5");
   }
 
   closeBtn.addEventListener("click", close);
