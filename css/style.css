@@ -1376,4 +1376,59 @@ li {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
+}
+.pass {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: block;
+  background-color: var(--purple-color);
+  border: none;
+  border-radius: 6px;
+  padding: 7px 15px;
+  width: 250px;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+@media (max-width: 396px) {
+  .pass {
+    width: auto;
+  }
+}
+.blur {
+  filter: blur(40px);
+  cursor: none;
+}
+.chos_subject {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 100px;
+  row-gap: 50px;
+}
+.chos_subject a {
+  background-color: var(--purple-color);
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url("../imgs/back.png");
+}
+.chos_subject a img {
+  position: absolute;
+  position: absolute;
+  left: -470px;
+  transform: rotate(83deg);
+  top: -666px;
 }
