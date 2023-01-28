@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مدرسة عبدالله النديم | الأوراق</title>
+    <title>مدرسة عبدالله النديم | التقديم</title>
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -95,6 +95,67 @@
             <p>البطاقة الصحية</p>
             <p>دمغات التأمين الصحي ب ثمانية وثمانون جنيه</p>
           </div>
+          <h2>التسجيل</h2>
+          <div class="feedback">
+            <h3>التواصل مع المدرسة</h3>
+            <input
+              class="name-2"
+              id="fullName"
+              placeholder="اسم الطالب"
+              type="text"
+            />
+            <input
+              class="email"
+              id="phone_number"
+              placeholder="رقم تلفون ولي الأمر"
+              type="number"
+            />
+            <input
+              class="phone"
+              id="phone_number_two"
+              placeholder="رقم التلفون الأرضي"
+              type="number"
+            />
+            <input
+              type="number"
+              class="msg"
+              id="number"
+              placeholder="الرقم القومي للطالب"
+            />
+            <button onclick="SendMail()" class="title" id="title" type="submit">
+              Send
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+          <div class="modal" style="top: 50%; transform: translate(-40%, -50%)">
+            <div class="close-btn">
+              <div class="bars bar1"></div>
+              <div class="bars bar2"></div>
+            </div>
+            <div class="modal-body">
+              <i class="uil uil-grin"></i>
+              <h2>AWESOME</h2>
+              <p>Your Msg Has Been Sent. Thanks</p>
+              <button
+                type="button"
+                style="border: none; margin-top: 70px"
+                class="btn-shape my-a title title-3"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <!-- End Main Page -->
@@ -104,6 +165,15 @@
       src="https://kit.fontawesome.com/102e410967.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("C2IeN5h_sjANwPBLy");
+      })();
+    </script>
     <script src="js/papes.js"></script>
   </body>
 </html>

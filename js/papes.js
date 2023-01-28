@@ -58,3 +58,34 @@ setInterval(() => {
     ele.style.borderColor = `${color} transparent`;
   });
 }, 1000);
+
+// Send Email
+function SendMail() {
+  let msgSend = document.querySelector(".modal");
+  let submit = document.querySelector(".title-3");
+  let closeBtn = document.querySelector(".close-btn");
+
+  let params = {
+    from_name: document.getElementById("fullName").value,
+    phone_number: document.getElementById("phone_number").value,
+    phone_number_two: document.getElementById("phone_number_two").value,
+    number: document.getElementById("number").value,
+  };
+
+  if (
+    params.from_name &&
+    params.phone_number &&
+    params.phone_number_two &&
+    params.number
+  ) {
+    emailjs.send("service_lyfihxb", "template_ctgf13s", params);
+    msgSend.classList.toggle("active-5");
+  }
+
+  closeBtn.addEventListener("click", close);
+  submit.addEventListener("click", close);
+
+  function close() {
+    msgSend.classList.remove("active-5");
+  }
+}
