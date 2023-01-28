@@ -71,12 +71,15 @@ function SendMail() {
     phone_number_two: document.getElementById("phone_number_two").value,
     number: document.getElementById("number").value,
   };
-
+  console.log(isNaN(+params.from_name));
+  console.log(String(params.phone_number).length == 11);
+  console.log(String(params.phone_number_two).length == 7);
+  console.log(String(params.number).length == 14);
   if (
-    params.from_name &&
-    params.phone_number &&
-    params.phone_number_two &&
-    params.number
+    isNaN(+params.from_name) &&
+    String(params.phone_number).length == 11 &&
+    String(params.phone_number_two).length == 7 &&
+    String(params.number).length == 14
   ) {
     emailjs.send("service_lyfihxb", "template_ctgf13s", params);
     msgSend.classList.toggle("active-5");
