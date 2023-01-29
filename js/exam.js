@@ -606,19 +606,19 @@ let userFour = {
       Skills: 87,
     },
   },
-  // 41520: {
-  //   name: "بسمله ممتاز الشحات محمد احمد",
-  //   subject: {
-  //     Arabic: 72,
-  //     Math: 61,
-  //     Science: 81,
-  //     Studies: 80,
-  //     English: 54,
-  //     Religion: 64,
-  //     Computer: 74,
-  //     Skills: 90,
-  //   },
-  // },
+  41520: {
+    name: "بسمله ممتاز الشحات محمد احمد",
+    subject: {
+      Arabic: 72,
+      Math: 61,
+      Science: 81,
+      Studies: 80,
+      English: 54,
+      Religion: 64,
+      Computer: 74,
+      Skills: 90,
+    },
+  },
   // 41543: {
   //   name: "جنا نبيل شوقي الورداني الحداد",
   //   subject: {
@@ -944,19 +944,19 @@ let userFour = {
       Skills: 82,
     },
   },
-  // 42335: {
-  //   name: "ليان ابراهيم عطاالله عبدالخالق",
-  //   subject: {
-  //     Arabic: 87,
-  //     Math: 74,
-  //     Science: 89,
-  //     Studies: 81,
-  //     English: 63,
-  //     Religion: 83,
-  //     Computer: 83,
-  //     Skills: 95,
-  //   },
-  // },
+  42335: {
+    name: "ليان ابراهيم عطاالله عبدالخالق",
+    subject: {
+      Arabic: 87,
+      Math: 74,
+      Science: 89,
+      Studies: 81,
+      English: 63,
+      Religion: 83,
+      Computer: 83,
+      Skills: 95,
+    },
+  },
   42389: {
     name: "ليان شريف جمعه ابونصير",
     subject: {
