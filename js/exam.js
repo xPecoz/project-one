@@ -1427,19 +1427,19 @@ let userFive = {
       Skills: 94,
     },
   },
-  // 50616: {
-  //   name: "صلاح محمد صلاح محمد",
-  //   subject: {
-  //     Arabic: 57,
-  //     Math: 50,
-  //     Science: 73,
-  //     Studies: 75,
-  //     English: 60,
-  //     Religion: 73,
-  //     Computer: 87,
-  //     Skills: 82,
-  //   },
-  // },
+  50616: {
+    name: "صلاح محمد صلاح محمد",
+    subject: {
+      Arabic: 57,
+      Math: 50,
+      Science: 73,
+      Studies: 75,
+      English: 60,
+      Religion: 73,
+      Computer: 87,
+      Skills: 82,
+    },
+  },
   50672: {
     name: "عبد الرحمن محمد محمد خطاب",
     subject: {
