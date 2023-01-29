@@ -1362,19 +1362,19 @@ let userFive = {
   //     Skills: 0,
   //   },
   // },
-  // 50336: {
-  //   name: "حمدي ابراهيم محمد ابراهيم",
-  //   subject: {
-  //     Arabic: 75,
-  //     Math: 75,
-  //     Science: 91,
-  //     Studies: 53,
-  //     English: 82,
-  //     Religion: 92,
-  //     Computer: 95,
-  //     Skills: 93,
-  //   },
-  // },
+  50336: {
+    name: "حمدي ابراهيم محمد ابراهيم",
+    subject: {
+      Arabic: 75,
+      Math: 75,
+      Science: 91,
+      Studies: 53,
+      English: 82,
+      Religion: 92,
+      Computer: 95,
+      Skills: 93,
+    },
+  },
   // 50392: {
   //   name: "رامي سمير ابراهيم ابراهيم حسن",
   //   subject: {
