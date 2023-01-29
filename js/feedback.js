@@ -53,12 +53,11 @@ function SendMail() {
 
   let params = {
     from_name: document.getElementById("fullName").value,
-    email_id: document.getElementById("email_id").value,
     message: document.getElementById("message").value,
     number: document.getElementById("phone_id").value,
   };
 
-  if (params.from_name && params.email_id && params.message) {
+  if (params.from_name && params.message && params.number) {
     emailjs.send("service_vpguixj", "template_j210nld", params);
     msgSend.classList.add("active-5");
   }

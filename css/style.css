@@ -316,15 +316,19 @@ li {
   align-items: center;
   border-radius: 6px;
   transition: 0.4s;
+  border: 1px solid var(--grey-color);
 }
 .sidebar li a.active {
   background-color: var(--purple-color);
+  border: none;
 }
 .sidebar li a.active i,
 .sidebar li a:hover i,
 .sidebar li a.active span,
-.sidebar li a:hover span {
+.sidebar li a:hover span,
+.sidebar li a:hover {
   color: white;
+  border: none;
 }
 .sidebar li a:hover {
   background-color: var(--purple-color);
@@ -456,9 +460,6 @@ li {
   .sidebar header .toggle {
     right: 0;
   }
-  .sidebar li {
-    margin: 40px 0;
-  }
   .sidebar .menu-bar {
     justify-content: center !important;
   }
@@ -466,6 +467,9 @@ li {
     justify-content: left;
     width: 276px;
     margin: auto;
+  }
+  .sidebar li {
+    margin: 0;
   }
   .sidebar li .icon,
   .sidebar li .text {
@@ -476,6 +480,11 @@ li {
   }
   .sidebar + .content {
     margin-left: 0;
+  }
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
   }
 }
 .sub-menu-wrap {
@@ -741,7 +750,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 80px;
+  font-size: 100px;
   background-color: var(--body-color);
   margin: 10px 10px 0;
   border-radius: 6px;
@@ -1454,14 +1463,14 @@ li {
     font-size: 25px;
   }
   .main-page .links i {
-    height: 175px;
-    font-size: 60px;
+    height: 145px;
+    font-size: 75px;
   }
   .main-page .links .img {
-    height: 175px;
+    height: 145px;
   }
   .main-page .links .img img {
-    width: 80px;
+    width: 90px !important;
   }
   .main-page h1 {
     margin: 0;
@@ -1475,5 +1484,16 @@ li {
   }
   .main-page .exam .time {
     margin: auto;
+  }
+  .box .text {
+    font-size: 23px;
+  }
+  .coolBeans {
+    font-size: 23px;
+    height: 52px !important;
+    width: 164px !important;
+  }
+  .classes {
+    font-size: 23px;
   }
 }
