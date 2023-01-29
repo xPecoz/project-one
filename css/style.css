@@ -734,15 +734,15 @@ li {
   transform: scaleX(1);
   transform-origin: right;
 }
-.main-page .links i {
+.main-page .links i,
+.main-page .links .img {
   width: calc(100% - 20px);
   height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 80px;
-  background-color: var(--purple-alt-color);
-  color: var(--black-color);
+  background-color: var(--body-color);
   margin: 10px 10px 0;
   border-radius: 6px;
 }
@@ -1454,13 +1454,26 @@ li {
     font-size: 25px;
   }
   .main-page .links i {
-    height: 200px;
-    font-size: 70px;
+    height: 175px;
+    font-size: 60px;
+  }
+  .main-page .links .img {
+    height: 175px;
+  }
+  .main-page .links .img img {
+    width: 80px;
   }
   .main-page h1 {
     margin: 0;
   }
   .main-page .box .emty p {
     margin: 10px auto;
+  }
+  .target .box:nth-child(5),
+  .target .box:nth-child(6) {
+    display: none;
+  }
+  .main-page .exam .time {
+    margin: auto;
   }
 }
