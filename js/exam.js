@@ -1048,19 +1048,19 @@ let userFour = {
   //     Skills: 0,
   //   },
   // },
-  // 42767: {
-  //   name: "مريم منصور السعيد حسن الكناني",
-  //   subject: {
-  //     Arabic: 85,
-  //     Math: 72,
-  //     Science: 87,
-  //     Studies: 74,
-  //     English: 57,
-  //     Religion: 69,
-  //     Computer: 81,
-  //     Skills: 90,
-  //   },
-  // },
+  42767: {
+    name: "مريم منصور السعيد حسن الكناني",
+    subject: {
+      Arabic: 85,
+      Math: 72,
+      Science: 87,
+      Studies: 74,
+      English: 57,
+      Religion: 69,
+      Computer: 81,
+      Skills: 90,
+    },
+  },
   42821: {
     name: "مريم هاشم الزكي الشراكي",
     subject: {
@@ -1635,19 +1635,19 @@ let userFive = {
       Skills: 91,
     },
   },
-  // 51424: {
-  //   name: "مكرم رضا محمد عبد الرازق",
-  //   subject: {
-  //     Arabic: 82,
-  //     Math: 57,
-  //     Science: 84,
-  //     Studies: 83,
-  //     English: 83,
-  //     Religion: 87,
-  //     Computer: 83,
-  //     Skills: 87,
-  //   },
-  // },
+  51424: {
+    name: "مكرم رضا محمد عبد الرازق",
+    subject: {
+      Arabic: 82,
+      Math: 57,
+      Science: 84,
+      Studies: 83,
+      English: 83,
+      Religion: 87,
+      Computer: 83,
+      Skills: 87,
+    },
+  },
   51469: {
     name: "نور محمد احمد محمد ابراهيم",
     subject: {
