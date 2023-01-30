@@ -1375,19 +1375,19 @@ let userFive = {
       Skills: 93,
     },
   },
-  // 50392: {
-  //   name: "رامي سمير ابراهيم ابراهيم حسن",
-  //   subject: {
-  //     Arabic: 70,
-  //     Math: 50,
-  //     Science: 77,
-  //     Studies: 71,
-  //     English: 70,
-  //     Religion: 80,
-  //     Computer: 79,
-  //     Skills: 92,
-  //   },
-  // },
+  50392: {
+    name: "رامي سمير ابراهيم ابراهيم حسن",
+    subject: {
+      Arabic: 70,
+      Math: 50,
+      Science: 77,
+      Studies: 71,
+      English: 70,
+      Religion: 80,
+      Computer: 79,
+      Skills: 92,
+    },
+  },
   50448: {
     name: "رمضان السيد بدير عبد الخبير",
     subject: {
