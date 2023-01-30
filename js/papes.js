@@ -71,10 +71,6 @@ function SendMail() {
     phone_number_two: document.getElementById("phone_number_two").value,
     number: document.getElementById("number").value,
   };
-  console.log(isNaN(+params.from_name));
-  console.log(String(params.phone_number).length == 11);
-  console.log(String(params.phone_number_two).length == 7);
-  console.log(String(params.number).length == 14);
   if (
     isNaN(+params.from_name) &&
     String(params.phone_number).length == 11 &&
@@ -92,3 +88,17 @@ function SendMail() {
     msgSend.classList.remove("active-5");
   }
 }
+
+window.addEventListener("contextmenu", (e) => {
+  e.preventDefault();
+});
+
+document.onkeydown = (e) => {
+  let num = 0;
+  let ctrl;
+  e.ctrlKey !== false ? (ctrl = true) : "";
+  e.keyCode == 85 ? (num = 85) : "";
+  if (num == 85 && ctrl == true) {
+    e.preventDefault();
+  }
+};
