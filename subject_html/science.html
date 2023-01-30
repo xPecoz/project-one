@@ -24,7 +24,7 @@
     <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
   </head>
   <body class="dark-theme">
-    <nav class="sidebar close">
+    <nav class="sidebar close blur">
       <header>
         <div class="image-text">
           <span class="image">
@@ -75,21 +75,28 @@
                 <span class="text nav-text">الجدول المدرسى</span>
               </a>
             </li>
+            <li class="nav-link">
+              <a href="../tabel_exam.html">
+                <i class="uil uil-clipboard icon"></i>
+                <span class="text nav-text">جدول الإمتحانات</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
     <div class="content">
       <!-- Start Head -->
-      <div class="head">
+      <div class="head blur">
         <i class="uil uil-moon"></i>
         <div class="sub-menu-wrap" id="subMenu"></div>
         <div class="text">اضغط علي السهم لإظهار الخدمات</div>
       </div>
       <!-- End Head -->
       <!-- Start Main Page -->
-      <div class="main-page">
-        <div class="container">
+      <input type="number" class="pass" placeholder="اكتب الكود" />
+      <div class="main-page blur">
+        <div class="container blur">
           <h1 class="h1-book">المواد الدراسية</h1>
           <p class="dec">هنا بإمكانك الحصول علي مذكرات للمواد</p>
           <h2>العلوم</h2>
@@ -250,5 +257,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="../js/papes.js"></script>
+    <script src="../js/subject.js"></script>
   </body>
 </html>

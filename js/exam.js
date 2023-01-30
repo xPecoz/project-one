@@ -3322,9 +3322,9 @@ function showExam() {
   }
 }
 
-// window.addEventListener("contextmenu", (e) => {
-//   e.preventDefault();
-// });
+window.addEventListener("contextmenu", (e) => {
+  e.preventDefault();
+});
 
 document.onkeydown = (e) => {
   let num = 0;

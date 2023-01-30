@@ -1404,6 +1404,12 @@ li {
   letter-spacing: 1px;
   font-size: 20px;
 }
+.pass::placeholder {
+  color: white;
+}
+.pass:focus {
+  outline: none;
+}
 @media (max-width: 396px) {
   .pass {
     width: auto;
@@ -1411,7 +1417,10 @@ li {
 }
 .blur {
   filter: blur(40px);
-  cursor: none;
+  cursor: none !important;
+  user-select: none;
+  width: 0;
+  overflow: hidden;
 }
 .chos_subject {
   display: grid;
@@ -1495,5 +1504,20 @@ li {
   }
   .classes {
     font-size: 23px;
+  }
+}
+.h1-tabel {
+  animation: control-width-6 5s 1s steps(15) infinite both,
+    blink 0.5s 1s infinite !important;
+}
+@keyframes control-width-6 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 203px;
+  }
+  100% {
+    width: 0;
   }
 }
