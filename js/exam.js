@@ -2194,19 +2194,19 @@ let userFive = {
       Skills: 92,
     },
   },
-  // 52897: {
-  //   name: "نورا حازم ابراهيم ابراهيم",
-  //   subject: {
-  //     Arabic: 91,
-  //     Math: 83,
-  //     Science: 91,
-  //     Studies: 83,
-  //     English: 80,
-  //     Religion: 89,
-  //     Computer: 92,
-  //     Skills: 94,
-  //   },
-  // },
+  52897: {
+    name: "نورا حازم ابراهيم ابراهيم",
+    subject: {
+      Arabic: 91,
+      Math: 83,
+      Science: 91,
+      Studies: 83,
+      English: 80,
+      Religion: 89,
+      Computer: 92,
+      Skills: 94,
+    },
+  },
   52920: {
     name: "ولاء محمد السيد يوسف",
     subject: {
