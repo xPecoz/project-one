@@ -484,7 +484,7 @@ li {
   .menu-links {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 14px;
   }
 }
 .sub-menu-wrap {
@@ -871,6 +871,7 @@ li {
   color: white;
   background-color: var(--purple-color);
   border-radius: 6px;
+  font-weight: bold;
 }
 .main-page .feedback textarea {
   height: 105px;
@@ -1520,4 +1521,28 @@ li {
   100% {
     width: 0;
   }
+}
+.h1-competition {
+  animation: control-width-7 5s 1s steps(20) infinite both,
+    blink 0.5s 1s infinite !important;
+}
+@keyframes control-width-7 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 281px;
+  }
+  100% {
+    width: 0;
+  }
+}
+select {
+  background-color: var(--purple-color);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px 0;
 }

@@ -82,6 +82,7 @@ let total = document.querySelector(".total .deg");
 let classroom = document.querySelector(".class");
 let tops = document.querySelector(".top .deg");
 let time = document.querySelector(".time");
+let rate = document.querySelector(".rate .deg");
 let text = "";
 
 // Students Data
@@ -3220,16 +3221,7 @@ function showExam() {
         skills.innerHTML = userFour[number.value].subject.Skills;
         computerBox.style.display = "flex";
         skillsBox.style.display = "flex";
-        total.innerHTML = `${
-          Number(arabic.innerHTML) +
-          Number(studies.innerHTML) +
-          Number(math.innerHTML) +
-          Number(english.innerHTML) +
-          Number(science.innerHTML) +
-          Number(religion.innerHTML) +
-          Number(skills.innerHTML) +
-          Number(compter.innerHTML)
-        }`;
+        total.innerHTML = userFour[number.value].subject.total;
         userName.innerHTML = userFour[number.value].name;
         tops.innerHTML = userFour[number.value].rank;
       } else if (number.value == "") {
@@ -3252,16 +3244,7 @@ function showExam() {
         userName.innerHTML = userFive[number.value].name;
         computerBox.style.display = "flex";
         skillsBox.style.display = "flex";
-        total.innerHTML = `${
-          Number(arabic.innerHTML) +
-          Number(studies.innerHTML) +
-          Number(math.innerHTML) +
-          Number(english.innerHTML) +
-          Number(science.innerHTML) +
-          Number(religion.innerHTML) +
-          Number(skills.innerHTML) +
-          Number(compter.innerHTML)
-        }`;
+        total.innerHTML = userFive[number.value].subject.total;
         tops.innerHTML = userFive[number.value].rank;
       } else if (number.value == "") {
         alert("ادخل الكود");
@@ -3281,13 +3264,18 @@ function showExam() {
         userName.innerHTML = userSix[number.value].name;
         computerBox.style.display = "none";
         skillsBox.style.display = "none";
-        total.innerHTML = `${
-          Number(arabic.innerHTML) +
-          Number(studies.innerHTML) +
-          Number(math.innerHTML) +
-          Number(english.innerHTML) +
-          Number(science.innerHTML)
-        }`;
+        total.innerHTML = userSix[number.value].subject.total;
+
+        userSix[number.value].subject.total >= 425
+          ? (rate.innerHTML = "ممتاز")
+          : total.innerHTML >= 375
+          ? (rate.innerHTML = "جيد جدا")
+          : total.innerHTML >= 325
+          ? (rate.innerHTML = "جيد")
+          : total.innerHTML >= 250
+          ? (rate.innerHTML = "مقبول")
+          : (rate.innerHTML = "دون مستوى");
+
         tops.innerHTML = userSix[number.value].rank;
       } else if (number.value == "") {
         alert("ادخل الكود");

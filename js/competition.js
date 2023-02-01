@@ -46,6 +46,25 @@ btnDark.addEventListener("click", () => {
 });
 
 // Send Message
+let select = document.querySelector(".comp");
+let comp_2 = document.getElementById("write_comp");
+let comp = "";
+
+select.oninput = () => {
+  comp = select.value;
+  if (comp == "اكتب الموهبة") {
+    comp_2.style.display = "block";
+    comp = comp_2.value;
+  } else {
+    comp_2.style.display = "none";
+    comp = select.value;
+  }
+};
+
+comp_2.oninput = () => {
+  comp = comp_2.value;
+};
+
 function SendMail() {
   let msgSend = document.querySelector(".modal");
   let submit = document.querySelector(".title-3");
@@ -53,12 +72,12 @@ function SendMail() {
 
   let params = {
     from_name: document.getElementById("fullName").value,
-    message: document.getElementById("message").value,
-    number: document.getElementById("phone_id").value,
+    class: document.getElementById("class").value,
+    competition: comp,
   };
 
-  if (params.from_name && params.message && params.number) {
-    emailjs.send("service_ufra1sm", "template_w3gszm9", params);
+  if (params.from_name && params.class && params.competition) {
+    emailjs.send("service_dkbeiop", "template_v97w75m", params);
     msgSend.classList.add("active-5");
   }
 

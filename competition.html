@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مدرسة عبدالله النديم | التقديم</title>
+    <title>مدرسة عبدالله النديم | المسابقات</title>
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -47,17 +47,17 @@
             <li class="nav-link">
               <a class="" href="exam.html">
                 <i class="uil uil-arrow-growth icon"></i>
-                <span class="text nav-text">نتيجية الإمتحانات</span>
+                <span class="text nav-text">نتيجة الإمتحانات</span>
               </a>
             </li>
             <li class="nav-link">
-              <a class="active" href="papers.html">
+              <a class="" href="papers.html">
                 <i class="uil uil-file-info-alt icon"></i>
                 <span class="text nav-text">التقديم في المدرسة</span>
               </a>
             </li>
             <li class="nav-link">
-              <a class="" href="feedback.html">
+              <a href="feedback.html">
                 <i class="uil uil-envelope-question icon"></i>
                 <span class="text nav-text">الأراء</span>
               </a>
@@ -81,7 +81,7 @@
               </a>
             </li>
             <li class="nav-link">
-              <a href="competition.html">
+              <a class="active" href="competition.html">
                 <i class="fa-solid fa-users icon"></i>
                 <span class="text nav-text">الاشتراك في المسابقات</span>
               </a>
@@ -90,55 +90,57 @@
         </div>
       </div>
     </nav>
-    <div class="content">
+    <div class="content w-full">
       <!-- Start Head -->
       <div class="head">
         <i class="uil uil-moon"></i>
-        <div class="sub-menu-wrap" id="subMenu"></div>
         <div class="text">اضغط علي السهم لإظهار الخدمات</div>
       </div>
       <!-- End Head -->
       <!-- Start Main Page -->
       <div class="main-page">
-        <div class="container">
-          <h1 class="h1-papers">أوراق التقديم</h1>
-          <p class="dec"></p>
-          <h2>الأوراق</h2>
-          <div class="box-papers">
-            <p>صورة من بطاقة الرقم القومي لولي الأمر</p>
-            <p>شهادة ميلاد الطفل (كمبيوتر)</p>
-            <p>ملف كامل الدمغات</p>
-            <p>عشرة صور شخصية حديثة للطفل، مقاس أربعة في ستة وبخلفية بيضاء</p>
-            <p>ما يثبت محل السكن، مثل إيصال غاز أو كهرباء أو المياه</p>
-            <p>البطاقة الصحية</p>
-            <p>دمغات التأمين الصحي ب ثمانية وثمانون جنيه</p>
-          </div>
-          <h2>التسجيل</h2>
+        <div class="container feed-container">
+          <h1 class="h1-competition">الإشتراك في المسابقات</h1>
+          <p class="dec">هنا بإمكانك الإشتراك في مسابقات المدرسة</p>
           <div class="feedback">
-            <h3>التواصل مع المدرسة</h3>
+            <h3>إرسال طلب الإشتراك</h3>
             <input
               class="name-2"
               id="fullName"
-              placeholder="اسم الطالب"
+              placeholder="الإسم"
               type="text"
             />
+            <select id="class" class="class_2">
+              <option value="1/1">1/1</option>
+              <option value="2/1">2/1</option>
+              <option value="1/2">1/2</option>
+              <option value="2/2">2/2</option>
+              <option value="1/3">1/3</option>
+              <option value="1/4">1/4</option>
+              <option value="2/4">2/4</option>
+              <option value="1/5">1/5</option>
+              <option value="2/5">2/5</option>
+              <option value="1/6">1/6</option>
+              <option value="2/6">2/6</option>
+            </select>
+            <select id="select" class="comp">
+              <optgroup label="رايضي">
+                <option value="قدم">قدم</option>
+                <option value="جرى">جرى</option>
+              </optgroup>
+              <optgroup label="دينى">
+                <option value="قرآن">قرآن</option>
+                <option value="حديث">حديث</option>
+              </optgroup>
+              <optgroup label="موهبة">
+                <option value="اكتب الموهبة">اكتب الموهبة</option>
+              </optgroup>
+            </select>
             <input
-              class="email"
-              id="phone_number"
-              placeholder="رقم تلفون ولي الأمر"
-              type="number"
-            />
-            <input
-              class="phone"
-              id="phone_number_two"
-              placeholder="رقم التلفون الأرضي"
-              type="number"
-            />
-            <input
-              type="number"
-              class="msg"
-              id="number"
-              placeholder="الرقم القومي للطالب"
+              style="display: none"
+              type="text"
+              id="write_comp"
+              placeholder="اكتب الموهبة"
             />
             <button onclick="SendMail()" class="title" id="title" type="submit">
               الإرسال
@@ -150,15 +152,15 @@
               <span></span>
             </button>
           </div>
-          <div class="modal" style="top: 50%; transform: translate(-40%, -50%)">
+          <div class="modal">
             <div class="close-btn">
               <div class="bars bar1"></div>
               <div class="bars bar2"></div>
             </div>
             <div class="modal-body">
               <i class="uil uil-grin"></i>
-              <h2>تـم الإرســـال</h2>
-              <p>تم إرسال البيانات بنجاح سوف يتم الرد قريبا</p>
+              <h2>تم الإرسال</h2>
+              <p>الإقتراح أو الشكوى أرسل بنجاح</p>
               <button
                 type="button"
                 style="border: none; margin-top: 70px"
@@ -173,6 +175,25 @@
                 التأكيد
               </button>
             </div>
+          </div>
+          <div class="feedback-2">
+            <p class="feed-p">
+              إن لم يتم الرد علي مشكلتك بإمكانك التواصل مع هذا الرقم
+            </p>
+            <a
+              target="_blank"
+              class="feed-number title title-2"
+              href="https://api.whatsapp.com/send?phone=201555269553&text=Hi!%20I%20want%20to%20increase%20my%20sales!"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              1555269553
+            </a>
           </div>
         </div>
       </div>
@@ -192,6 +213,6 @@
         emailjs.init("C2IeN5h_sjANwPBLy");
       })();
     </script>
-    <script src="js/papes.js"></script>
+    <script src="js/competition.js"></script>
   </body>
 </html>
