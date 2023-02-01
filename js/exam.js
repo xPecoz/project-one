@@ -3224,6 +3224,13 @@ function showExam() {
         total.innerHTML = userFour[number.value].subject.total;
         userName.innerHTML = userFour[number.value].name;
         tops.innerHTML = userFour[number.value].rank;
+        userFour[number.value].subject.total >= 680
+          ? (rate.innerHTML = "فاق التوقعات")
+          : total.innerHTML >= 520
+          ? (rate.innerHTML = "امتلك المعارف و المهارات")
+          : total.innerHTML >= 400
+          ? (rate.innerHTML = "في حاجة إلي دعم")
+          : (rate.innerHTML = "لم يتقن المعارف");
       } else if (number.value == "") {
         alert("ادخل الكود");
       } else {
@@ -3245,6 +3252,13 @@ function showExam() {
         computerBox.style.display = "flex";
         skillsBox.style.display = "flex";
         total.innerHTML = userFive[number.value].subject.total;
+        userFive[number.value].subject.total >= 680
+          ? (rate.innerHTML = "فاق التوقعات")
+          : total.innerHTML >= 520
+          ? (rate.innerHTML = "امتلك المعارف و المهارات")
+          : total.innerHTML >= 400
+          ? (rate.innerHTML = "في حاجة إلي دعم")
+          : (rate.innerHTML = "لم يتقن المعارف");
         tops.innerHTML = userFive[number.value].rank;
       } else if (number.value == "") {
         alert("ادخل الكود");
@@ -3265,7 +3279,6 @@ function showExam() {
         computerBox.style.display = "none";
         skillsBox.style.display = "none";
         total.innerHTML = userSix[number.value].subject.total;
-
         userSix[number.value].subject.total >= 425
           ? (rate.innerHTML = "ممتاز")
           : total.innerHTML >= 375
@@ -3275,7 +3288,6 @@ function showExam() {
           : total.innerHTML >= 250
           ? (rate.innerHTML = "مقبول")
           : (rate.innerHTML = "دون مستوى");
-
         tops.innerHTML = userSix[number.value].rank;
       } else if (number.value == "") {
         alert("ادخل الكود");
