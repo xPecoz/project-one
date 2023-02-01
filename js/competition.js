@@ -48,21 +48,49 @@ btnDark.addEventListener("click", () => {
 // Send Message
 let select = document.querySelector(".comp");
 let comp_2 = document.getElementById("write_comp");
+let run = document.querySelector(".run");
+let den = document.querySelector(".den");
 let comp = "";
+comp = select.value;
 
 select.oninput = () => {
   comp = select.value;
   if (comp == "اكتب الموهبة") {
     comp_2.style.display = "block";
+    run.style.display = "none";
+    den.style.display = "none";
     comp = comp_2.value;
-  } else {
+  } else if (comp == "رياضي") {
+    run.style.display = "block";
     comp_2.style.display = "none";
-    comp = select.value;
+    den.style.display = "none";
+    comp = run.value;
+  } else if (comp == "دينى") {
+    den.style.display = "block";
+    run.style.display = "none";
+    comp_2.style.display = "none";
+    comp = den.value;
   }
+};
+
+comp_2.onclick = () => {
+  comp = comp_2.value;
+};
+run.onclick = () => {
+  comp = run.value;
+};
+den.onclick = () => {
+  comp = den.value;
 };
 
 comp_2.oninput = () => {
   comp = comp_2.value;
+};
+run.oninput = () => {
+  comp = run.value;
+};
+den.oninput = () => {
+  comp = den.value;
 };
 
 function SendMail() {
@@ -76,7 +104,13 @@ function SendMail() {
     competition: comp,
   };
 
-  if (params.from_name && params.class && params.competition) {
+  if (
+    params.from_name &&
+    params.class &&
+    params.competition !== "دينى" &&
+    params.competition !== "رياضي" &&
+    params.competition
+  ) {
     emailjs.send("service_dkbeiop", "template_v97w75m", params);
     msgSend.classList.add("active-5");
   }
@@ -89,16 +123,16 @@ function SendMail() {
   }
 }
 
-window.addEventListener("contextmenu", (e) => {
-  e.preventDefault();
-});
+// window.addEventListener("contextmenu", (e) => {
+//   e.preventDefault();
+// });
 
-document.onkeydown = (e) => {
-  let num = 0;
-  let ctrl;
-  e.ctrlKey !== false ? (ctrl = true) : "";
-  e.keyCode == 85 ? (num = 85) : "";
-  if (num == 85 && ctrl == true) {
-    e.preventDefault();
-  }
-};
+// document.onkeydown = (e) => {
+//   let num = 0;
+//   let ctrl;
+//   e.ctrlKey !== false ? (ctrl = true) : "";
+//   e.keyCode == 85 ? (num = 85) : "";
+//   if (num == 85 && ctrl == true) {
+//     e.preventDefault();
+//   }
+// };
