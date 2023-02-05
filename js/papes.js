@@ -89,16 +89,16 @@ function SendMail() {
   }
 }
 
-// window.addEventListener("contextmenu", (e) => {
-//   e.preventDefault();
-// });
+window.addEventListener("contextmenu", (e) => {
+  e.preventDefault();
+});
 
-// document.onkeydown = (e) => {
-//   let num = 0;
-//   let ctrl;
-//   e.ctrlKey !== false ? (ctrl = true) : "";
-//   e.keyCode == 85 ? (num = 85) : "";
-//   if (num == 85 && ctrl == true) {
-//     e.preventDefault();
-//   }
-// };
+document.onkeydown = (e) => {
+  let num = 0;
+  let ctrl;
+  e.ctrlKey !== false ? (ctrl = true) : "";
+  e.keyCode == 85 ? (num = 85) : "";
+  if (num == 85 && ctrl == true) {
+    e.preventDefault();
+  }
+};
