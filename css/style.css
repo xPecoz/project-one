@@ -1389,21 +1389,19 @@ li {
   text-align: center;
 }
 .pass {
-  position: fixed;
   top: 50%;
-  left: 50%;
   display: block;
   background-color: var(--purple-color);
   border: none;
   border-radius: 6px;
   padding: 7px 15px;
   width: 250px;
-  transform: translate(-50%, -50%);
   z-index: 9;
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 20px;
+  margin: calc(50vh - 51px) auto;
 }
 .pass::placeholder {
   color: white;
@@ -1417,11 +1415,7 @@ li {
   }
 }
 .blur {
-  filter: blur(40px);
-  cursor: none !important;
-  user-select: none;
-  width: 0;
-  overflow: hidden;
+  display: none;
 }
 .chos_subject {
   display: grid;
