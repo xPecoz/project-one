@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>مدرسة عبدالله النديم | المسابقات</title>
+    <title>مدرسة عبدالله النديم | الدورات</title>
     <!-- My Style -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -81,13 +81,13 @@
               </a>
             </li>
             <li class="nav-link">
-              <a class="active" href="competition.html">
+              <a href="competition.html">
                 <i class="fa-solid fa-users icon"></i>
                 <span class="text nav-text">الاشتراك في المسابقات</span>
               </a>
             </li>
             <li class="nav-link">
-              <a href="learn.html">
+              <a class="active" href="learn.html">
                 <i class="fa-solid fa-chalkboard-user icon"></i>
                 <span class="text nav-text">الاشتراك في دورات</span>
               </a>
@@ -106,7 +106,7 @@
       <!-- Start Main Page -->
       <div class="main-page">
         <div class="container feed-container">
-          <h1 class="h1-competition">الإشتراك في المسابقات</h1>
+          <h1 class="h1-learn">الإشتراك في دورات</h1>
           <p class="dec">هنا بإمكانك الإشتراك في مسابقات المدرسة</p>
           <div class="feedback">
             <h3>إرسال طلب الإشتراك</h3>
@@ -129,25 +129,14 @@
               <option value="1/6">1/6</option>
               <option value="2/6">2/6</option>
             </select>
-            <select id="select" class="comp">
-              <option value="رياضي">رياضي</option>
-              <option value="دينى">دينى</option>
-              <option value="اكتب الموهبة">اكتب الموهبة</option>
+            <select id="select">
+              <option value="تجويد القرآن">تجويد القرآن</option>
+              <option value="الحاسب الآلي">الحاسب الآلي</option>
+              <option value="القراءة و القصص">القراءة و القصص</option>
+              <option value="جرامر انجليزي">جرامر انجليزي</option>
+              <option value="تأسيس رياضيات">تأسيس رياضيات</option>
+              <option value="فنون كرة القدم">فنون كرة القدم</option>
             </select>
-            <select class="run" id="select">
-              <option value="قدم">قدم</option>
-              <option value="جرى">جرى</option>
-            </select>
-            <select class="den" style="display: none" id="select">
-              <option value="قرآن">قرآن</option>
-              <option value="حديث">حديث</option>
-            </select>
-            <input
-              style="display: none"
-              type="text"
-              id="write_comp"
-              placeholder="اكتب الموهبة"
-            />
             <button onclick="SendMail()" class="title" id="title" type="submit">
               الإرسال
               <span></span>
@@ -197,9 +186,9 @@
     ></script>
     <script type="text/javascript">
       (function () {
-        emailjs.init("C2IeN5h_sjANwPBLy");
+        emailjs.init("vhbaNb50-TsDil0Dc");
       })();
     </script>
-    <script src="js/competition.js"></script>
+    <script src="js/learn.js"></script>
   </body>
 </html>

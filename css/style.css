@@ -1540,5 +1540,18 @@ select {
   padding: 10px 20px;
   margin: 5px 0;
 }
-.classes:nth-child(1) {
+.h1-learn {
+  animation: control-width-8 5s 1s steps(15) infinite both,
+    blink 0.5s 1s infinite !important;
+}
+@keyframes control-width-8 {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 221px;
+  }
+  100% {
+    width: 0;
+  }
 }
