@@ -1422,6 +1422,7 @@ li {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   column-gap: 100px;
   row-gap: 50px;
+  place-content: center;
 }
 .chos_subject a {
   background-color: var(--purple-color);
