@@ -65,6 +65,9 @@ let countDownDate5 = new Date("March 5, 2023").getTime();
 let countDownDate6 = new Date("March 5, 2023").getTime();
 
 let counter4 = setInterval(() => {
+  if (dateDiff < 0) {
+    clearInterval(counter4);
+  }
   let dateNow = new Date().getTime();
   let dateDiff = countDownDate4 - dateNow;
 
@@ -75,13 +78,13 @@ let counter4 = setInterval(() => {
 
   document.querySelector(".month4").innerHTML = months;
   document.querySelector(".days4").innerHTML = days;
-
-  if (dateDiff < 0) {
-    clearInterval(counter4);
-  }
 }, 1000);
 
 let counter5 = setInterval(() => {
+  if (dateDiff < 0) {
+    clearInterval(counter6);
+  }
+
   let dateNow = new Date().getTime();
   let dateDiff = countDownDate5 - dateNow;
 
@@ -92,13 +95,13 @@ let counter5 = setInterval(() => {
 
   document.querySelector(".month5").innerHTML = months;
   document.querySelector(".days5").innerHTML = days;
-
-  if (dateDiff < 0) {
-    clearInterval(counter6);
-  }
 }, 1000);
 
 let counter6 = setInterval(() => {
+  if (dateDiff < 0) {
+    clearInterval(counter6);
+  }
+
   let dateNow = new Date().getTime();
   let dateDiff = countDownDate6 - dateNow;
 
@@ -109,22 +112,4 @@ let counter6 = setInterval(() => {
 
   document.querySelector(".month6").innerHTML = months;
   document.querySelector(".days6").innerHTML = days;
-
-  if (dateDiff < 0) {
-    clearInterval(counter6);
-  }
 }, 1000);
-
-window.addEventListener("contextmenu", (e) => {
-  e.preventDefault();
-});
-
-document.onkeydown = (e) => {
-  let num = 0;
-  let ctrl;
-  e.ctrlKey !== false ? (ctrl = true) : "";
-  e.keyCode == 85 ? (num = 85) : "";
-  if (num == 85 && ctrl == true) {
-    e.preventDefault();
-  }
-};
