@@ -20,13 +20,10 @@ let twoH2 = document.querySelectorAll(".two")[0];
 let three = document.querySelectorAll(".three")[1];
 let threeH2 = document.querySelectorAll(".three")[0];
 let four = document.querySelectorAll(".four")[1];
-let four2 = document.querySelectorAll(".four")[2];
 let fourH2 = document.querySelectorAll(".four")[0];
 let five = document.querySelectorAll(".five")[1];
-let five2 = document.querySelectorAll(".five")[2];
 let fiveH2 = document.querySelectorAll(".five")[0];
 let six = document.querySelectorAll(".six")[1];
-let six2 = document.querySelectorAll(".six")[2];
 let sixH2 = document.querySelectorAll(".six")[0];
 
 window.onload = () => {
@@ -52,7 +49,6 @@ inputPass.oninput = () => {
     });
 
     four.style.display = "block";
-    four2.style.display = "block";
     fourH2.style.display = "block";
   } else if (inputPass.value[0] == "5") {
     allClass.forEach((ele) => {
@@ -63,7 +59,6 @@ inputPass.oninput = () => {
     });
 
     five.style.display = "block";
-    five2.style.display = "block";
     fiveH2.style.display = "block";
   } else if (inputPass.value[0] == "6") {
     allClass.forEach((ele) => {
@@ -74,7 +69,6 @@ inputPass.oninput = () => {
     });
 
     six.style.display = "block";
-    six2.style.display = "block";
     sixH2.style.display = "block";
   }
 };
