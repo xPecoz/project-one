@@ -3270,12 +3270,12 @@ function showExam() {
         computerBox.style.display = "flex";
         skillsBox.style.display = "flex";
 
-        tops.innerHTML = userFive[number.value].rank;
-
         if (userFive[number.value].passed) {
           total.innerHTML = "له دور ثاني";
           rate.innerHTML = "له دور ثاني";
+          tops.innerHTML = "له دور ثاني";
         } else {
+          tops.innerHTML = userFive[number.value].rank;
           total.innerHTML = userFive[number.value].subject.total;
           userFive[number.value].subject.total >= 680
             ? (rate.innerHTML = "فاق التوقعات")
@@ -3307,7 +3307,9 @@ function showExam() {
         if (userSix[number.value].passed) {
           total.innerHTML = "له دور ثاني";
           rate.innerHTML = "له دور ثاني";
+          tops.innerHTML = "له دور ثاني";
         } else {
+          tops.innerHTML = userSix[number.value].rank;
           total.innerHTML = userSix[number.value].subject.total;
           userSix[number.value].subject.total >= 289
             ? (rate.innerHTML = "ممتاز")
@@ -3319,12 +3321,6 @@ function showExam() {
             ? (rate.innerHTML = "مقبول")
             : (rate.innerHTML = "دون مستوى");
         }
-
-        userSix[number.value].passed
-          ? (total.innerHTML = "له دور ثاني")
-          : (total.innerHTML = "له دور ثاني");
-
-        tops.innerHTML = userSix[number.value].rank;
       } else if (number.value == "") {
         alert("ادخل الكود");
       } else {
