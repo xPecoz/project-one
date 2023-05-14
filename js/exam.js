@@ -86,7 +86,7 @@ let text = "";
 
 //  Students Data
 let userFour = {
-    46396: {
+  46396: {
     name: "أحمد عمرو فاروق سعد",
     subject: {
       Arabic: 92,
@@ -3382,14 +3382,17 @@ document.onkeydown = (e) => {
 let arr = [];
 
 for (let prop in userSix) {
-  userSix[prop].subject.total =
-    userSix[prop].subject.Arabic +
-    userSix[prop].subject.English +
-    userSix[prop].subject.Math +
-    userSix[prop].subject.Science +
-    userSix[prop].subject.Studies;
-  arr.push(userSix[prop].subject.total);
-  arr = arr.sort((a, b) => b - a);
+  if (userSix[prop].passed == true) {
+  } else {
+    userSix[prop].subject.total =
+      userSix[prop].subject.Arabic +
+      userSix[prop].subject.English +
+      userSix[prop].subject.Math +
+      userSix[prop].subject.Science +
+      userSix[prop].subject.Studies;
+    arr.push(userSix[prop].subject.total);
+    arr = arr.sort((a, b) => b - a);
+  }
 }
 
 for (let i = 0; i < arr.length; i++) {
@@ -3402,17 +3405,20 @@ for (let i = 0; i < arr.length; i++) {
 let arr2 = [];
 
 for (let prop in userFour) {
-  userFour[prop].subject.total =
-    userFour[prop].subject.Arabic +
-    userFour[prop].subject.English +
-    userFour[prop].subject.Math +
-    userFour[prop].subject.Science +
-    userFour[prop].subject.Studies +
-    userFour[prop].subject.Computer +
-    userFour[prop].subject.Skills +
-    userFour[prop].subject.Religion;
-  arr2.push(userFour[prop].subject.total);
-  arr2 = arr2.sort((a, b) => b - a);
+  if (userFour[prop].passed == true) {
+  } else {
+    userFour[prop].subject.total =
+      userFour[prop].subject.Arabic +
+      userFour[prop].subject.English +
+      userFour[prop].subject.Math +
+      userFour[prop].subject.Science +
+      userFour[prop].subject.Studies +
+      userFour[prop].subject.Computer +
+      userFour[prop].subject.Skills +
+      userFour[prop].subject.Religion;
+    arr2.push(userFour[prop].subject.total);
+    arr2 = arr2.sort((a, b) => b - a);
+  }
 }
 
 for (let i = 0; i < arr2.length; i++) {
@@ -3425,17 +3431,20 @@ for (let i = 0; i < arr2.length; i++) {
 let arr3 = [];
 
 for (let prop in userFive) {
-  userFive[prop].subject.total =
-    userFive[prop].subject.Arabic +
-    userFive[prop].subject.English +
-    userFive[prop].subject.Math +
-    userFive[prop].subject.Science +
-    userFive[prop].subject.Studies +
-    userFive[prop].subject.Computer +
-    userFive[prop].subject.Skills +
-    userFive[prop].subject.Religion;
-  arr3.push(userFive[prop].subject.total);
-  arr3 = arr3.sort((a, b) => b - a);
+  if (userFive[prop].passed == true) {
+  } else {
+    userFive[prop].subject.total =
+      userFive[prop].subject.Arabic +
+      userFive[prop].subject.English +
+      userFive[prop].subject.Math +
+      userFive[prop].subject.Science +
+      userFive[prop].subject.Studies +
+      userFive[prop].subject.Computer +
+      userFive[prop].subject.Skills +
+      userFive[prop].subject.Religion;
+    arr3.push(userFive[prop].subject.total);
+    arr3 = arr3.sort((a, b) => b - a);
+  }
 }
 
 for (let i = 0; i < arr3.length; i++) {
