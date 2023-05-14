@@ -86,6 +86,19 @@ let text = "";
 
 //  Students Data
 let userFour = {
+    46396: {
+    name: "أحمد عمرو فاروق سعد",
+    subject: {
+      Arabic: 92,
+      Math: 87,
+      Science: 96,
+      Studies: 90,
+      English: 95,
+      Religion: 90,
+      Computer: 84,
+      Skills: 91,
+    },
+  },
   40077: {
     name: "عمر جمال السيد محمد البسيوني",
     subject: {
