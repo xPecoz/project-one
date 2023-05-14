@@ -1168,6 +1168,22 @@ li {
   max-height: fit-content !important;
   padding: 5px;
 }
+.exam-2.a > div p {
+  background-color: var(--exam-alt-color);
+  padding: 7px;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.exam-2.a > div p:nth-child(1) {
+  width: 70%;
+  border-right: 2px solid var(--black-color);
+}
+.exam-2.a > div p:nth-child(2) {
+  width: 30%;
+}
 .exam-2 {
   background-color: var(--box-color);
   padding: 15px;
