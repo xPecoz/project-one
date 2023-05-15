@@ -3219,22 +3219,6 @@ function showExam() {
   if (num <= 4) {
     if (text == "الصف الرابع") {
       if (userFour[number.value]) {
-        // if (userFour[number.value].passes) {
-        //   // let arr = [];
-        //   // let a = [
-        //   //   "Arabic",
-        //   //   "Math",
-        //   //   "Science",
-        //   //   "Studies",
-        //   //   "English",
-        //   //   "Religion",
-        //   //   "Computer",
-        //   //   "Skills",
-        //   // ];
-        //   // for (let i = 0; i < a.length; i++) {
-        //   //   for ()
-        //   // }
-        // } else {
         arabic.innerHTML = userFour[number.value].subject.Arabic;
         studies.innerHTML = userFour[number.value].subject.Studies;
         math.innerHTML = userFour[number.value].subject.Math;
@@ -3324,13 +3308,13 @@ function showExam() {
         } else {
           tops.innerHTML = userSix[number.value].rank;
           total.innerHTML = userSix[number.value].subject.total;
-          userSix[number.value].subject.total >= 289
+          userSix[number.value].subject.total >= 255
             ? (rate.innerHTML = "ممتاز")
-            : userSix[number.value].subject.total >= 255
+            : userSix[number.value].subject.total >= 225
             ? (rate.innerHTML = "جيد جدا")
-            : userSix[number.value].subject.total >= 221
+            : userSix[number.value].subject.total >= 195
             ? (rate.innerHTML = "جيد")
-            : userSix[number.value].subject.total >= 170
+            : userSix[number.value].subject.total >= 150
             ? (rate.innerHTML = "مقبول")
             : (rate.innerHTML = "دون مستوى");
         }
