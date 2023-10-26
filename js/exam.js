@@ -2609,7 +2609,7 @@ let userSix = {
   63062: {
     name: "نورا طارق عادل السيد",
     subject: {
-      Arabic: 98,
+      Arabic: 94,
       Math: 77,
       Science: 38,
       Studies: 39,
@@ -3378,7 +3378,6 @@ for (let prop in userSix) {
     arr = arr.sort((a, b) => b - a);
   }
 }
-
 for (let i = 0; i < arr.length; i++) {
   for (let test in userSix) {
     if (userSix[test].subject.total == arr[i]) {
